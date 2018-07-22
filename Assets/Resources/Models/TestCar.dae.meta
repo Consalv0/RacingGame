@@ -1,43 +1,38 @@
 fileFormatVersion: 2
-guid: 1ffc33c4a91dc42338e3310ed3a257b7
+guid: cadfeef8180a94509a5fc2f66739d25b
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Chassis
-    100002: Chassis_Wheel_Back_L
-    100004: Chassis_Wheel_Back_R
-    100006: Chassis_Wheel_Front_L
-    100008: Chassis_Wheel_Front_R
-    100010: //RootNode
-    400000: Chassis
-    400002: Chassis_Wheel_Back_L
-    400004: Chassis_Wheel_Back_R
-    400006: Chassis_Wheel_Front_L
-    400008: Chassis_Wheel_Front_R
-    400010: //RootNode
-    2100000: ChassisMat
-    2100002: Chassis_Wheel_Back_LMat
-    2100004: Chassis_Wheel_Back_RMat
-    2100006: Chassis_Wheel_Front_LMat
-    2100008: Chassis_Wheel_Front_RMat
-    2300000: Chassis
-    2300002: Chassis_Wheel_Back_L
-    2300004: Chassis_Wheel_Back_R
-    2300006: Chassis_Wheel_Front_L
-    2300008: Chassis_Wheel_Front_R
-    3300000: Chassis
-    3300002: Chassis_Wheel_Back_L
-    3300004: Chassis_Wheel_Back_R
-    3300006: Chassis_Wheel_Front_L
-    3300008: Chassis_Wheel_Front_R
+    100000: //RootNode
+    100002: Wheel_Back_L
+    100004: Wheel_Back_R
+    100006: Wheel_Front_L
+    100008: Wheel_Front_R
+    400000: //RootNode
+    400002: Wheel_Back_L
+    400004: Wheel_Back_R
+    400006: Wheel_Front_L
+    400008: Wheel_Front_R
+    2100000: lambert1
+    2100002: blinn1
+    2300000: //RootNode
+    2300002: Wheel_Back_L
+    2300004: Wheel_Back_R
+    2300006: Wheel_Front_L
+    2300008: Wheel_Front_R
+    3300000: //RootNode
+    3300002: Wheel_Back_L
+    3300004: Wheel_Back_R
+    3300006: Wheel_Front_L
+    3300008: Wheel_Front_R
     4300000: Chassis
-    4300002: Chassis_Wheel_Back_L
-    4300004: Chassis_Wheel_Back_R
-    4300006: Chassis_Wheel_Front_L
-    4300008: Chassis_Wheel_Front_R
+    4300002: Wheel_Back_L
+    4300004: Wheel_Back_R
+    4300006: Wheel_Front_L
+    4300008: Wheel_Front_R
   externalObjects: {}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -93,7 +88,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
