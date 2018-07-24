@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 54694460177650796}
   - component: {fileID: 64167894026955248}
   m_Layer: 10
-  m_Name: TestCar
+  m_Name: Test Car - Joint Based
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
