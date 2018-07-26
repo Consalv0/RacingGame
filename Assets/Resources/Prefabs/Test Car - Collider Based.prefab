@@ -610,13 +610,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26831244c7d6de34b917cbbe31344765, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  axleInfos:
-  - leftWheel: {fileID: 146489967458962542}
+  backAxle:
+    leftWheel: {fileID: 146489967458962542}
+    leftWheelVisual: {fileID: 4556788265833140}
     rightWheel: {fileID: 146159416317744968}
+    rightWheelVisual: {fileID: 4007566348941500}
     motor: 1
     steering: 0
-  - leftWheel: {fileID: 146149739390996428}
+  frontAxle:
+    leftWheel: {fileID: 146149739390996428}
+    leftWheelVisual: {fileID: 4311145797534582}
     rightWheel: {fileID: 146395327352165034}
+    rightWheelVisual: {fileID: 4518480336218574}
     motor: 0
     steering: 1
   maxMotorTorque: 1000
@@ -632,7 +637,7 @@ WheelCollider:
   m_SuspensionSpring:
     spring: 35000
     damper: 4500
-    targetPosition: 0.5
+    targetPosition: 1
   m_SuspensionDistance: 0.3
   m_ForceAppPointDistance: 0
   m_Mass: 20
@@ -661,7 +666,7 @@ WheelCollider:
   m_SuspensionSpring:
     spring: 35000
     damper: 4500
-    targetPosition: 0.5
+    targetPosition: 1
   m_SuspensionDistance: 0.3
   m_ForceAppPointDistance: 0
   m_Mass: 20
@@ -690,7 +695,7 @@ WheelCollider:
   m_SuspensionSpring:
     spring: 35000
     damper: 4500
-    targetPosition: 0.5
+    targetPosition: 1
   m_SuspensionDistance: 0.3
   m_ForceAppPointDistance: 0
   m_Mass: 20
@@ -719,7 +724,7 @@ WheelCollider:
   m_SuspensionSpring:
     spring: 35000
     damper: 4500
-    targetPosition: 0.5
+    targetPosition: 1
   m_SuspensionDistance: 0.3
   m_ForceAppPointDistance: 0
   m_Mass: 20

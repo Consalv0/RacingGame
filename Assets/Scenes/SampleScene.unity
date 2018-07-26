@@ -264,11 +264,6 @@ Transform:
   m_Father: {fileID: 1025611478}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!146 &501859283 stripped
-WheelCollider:
-  m_CorrespondingSourceObject: {fileID: 146489967458962542, guid: 4c10d2e25e914be4a9ec7e646d54a1f7,
-    type: 2}
-  m_PrefabInternal: {fileID: 1333535196}
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -1324,11 +1319,6 @@ Transform:
   m_Father: {fileID: 1025611478}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!146 &1195829249 stripped
-WheelCollider:
-  m_CorrespondingSourceObject: {fileID: 146395327352165034, guid: 4c10d2e25e914be4a9ec7e646d54a1f7,
-    type: 2}
-  m_PrefabInternal: {fileID: 1333535196}
 --- !u!1 &1273287752
 GameObject:
   m_ObjectHideFlags: 0
@@ -1623,12 +1613,7 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 54394958349461152, guid: 4c10d2e25e914be4a9ec7e646d54a1f7, type: 2}
-    - {fileID: 54840349955551580, guid: 4c10d2e25e914be4a9ec7e646d54a1f7, type: 2}
-    - {fileID: 54956079069479290, guid: 4c10d2e25e914be4a9ec7e646d54a1f7, type: 2}
-    - {fileID: 54424102802406316, guid: 4c10d2e25e914be4a9ec7e646d54a1f7, type: 2}
-    - {fileID: 54943627818659550, guid: 4c10d2e25e914be4a9ec7e646d54a1f7, type: 2}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c10d2e25e914be4a9ec7e646d54a1f7, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1 &1355398318
@@ -1971,43 +1956,6 @@ Transform:
   m_Father: {fileID: 1025611478}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1567869972 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1182392455943016, guid: 4c10d2e25e914be4a9ec7e646d54a1f7,
-    type: 2}
-  m_PrefabInternal: {fileID: 1333535196}
---- !u!114 &1567869973
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1567869972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26831244c7d6de34b917cbbe31344765, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  axleInfos:
-  - leftWheel: {fileID: 501859283}
-    rightWheel: {fileID: 1580840816}
-    motor: 1
-    steering: 0
-  - leftWheel: {fileID: 1601024090}
-    rightWheel: {fileID: 1195829249}
-    motor: 0
-    steering: 1
-  maxMotorTorque: 1000
-  maxSteeringAngle: 30
---- !u!146 &1580840816 stripped
-WheelCollider:
-  m_CorrespondingSourceObject: {fileID: 146159416317744968, guid: 4c10d2e25e914be4a9ec7e646d54a1f7,
-    type: 2}
-  m_PrefabInternal: {fileID: 1333535196}
---- !u!146 &1601024090 stripped
-WheelCollider:
-  m_CorrespondingSourceObject: {fileID: 146149739390996428, guid: 4c10d2e25e914be4a9ec7e646d54a1f7,
-    type: 2}
-  m_PrefabInternal: {fileID: 1333535196}
 --- !u!1 &1607465758
 GameObject:
   m_ObjectHideFlags: 0
