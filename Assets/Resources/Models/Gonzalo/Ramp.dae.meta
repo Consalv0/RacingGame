@@ -1,43 +1,17 @@
 fileFormatVersion: 2
-guid: cadfeef8180a94509a5fc2f66739d25b
+guid: a55fd148caeec4839b69422a3dc1cb1a
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Wheel_Back_L
-    100004: Wheel_Back_R
-    100006: Wheel_Front_L
-    100008: Wheel_Front_R
-    100010: Motor
     400000: //RootNode
-    400002: Wheel_Back_L
-    400004: Wheel_Back_R
-    400006: Wheel_Front_L
-    400008: Wheel_Front_R
-    400010: Motor
     2100000: lambert1
-    2100002: blinn1
     2300000: //RootNode
-    2300002: Wheel_Back_L
-    2300004: Wheel_Back_R
-    2300006: Wheel_Front_L
-    2300008: Wheel_Front_R
-    2300010: Motor
     3300000: //RootNode
-    3300002: Wheel_Back_L
-    3300004: Wheel_Back_R
-    3300006: Wheel_Front_L
-    3300008: Wheel_Front_R
-    3300010: Motor
-    4300000: Chassis
-    4300002: Wheel_Back_L
-    4300004: Wheel_Back_R
-    4300006: Wheel_Front_L
-    4300008: Wheel_Front_R
-    4300010: Motor
+    4300000: Ramp
   externalObjects: {}
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -93,7 +67,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 0
+  importAnimation: 1
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
