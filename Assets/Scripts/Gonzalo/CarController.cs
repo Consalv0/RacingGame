@@ -18,11 +18,4 @@ public class CarController : MonoBehaviour {
 		frontAxle.UpdateRotationAndTorque (steeringAngle, motorTorque);
 	}
 
-  private bool debugTorque()
-  {
-    if (Input.GetKeyDown(KeyCode.D))
-      return true;
-    else
-      return false;
-  }
 }
