@@ -155,15 +155,62 @@ Prefab:
     - target: {fileID: 114255819945069732, guid: 60834fe68a0e78f4fa6e60f45fd8f6ef,
         type: 2}
       propertyPath: maxMotorTorque
-      value: 1
+      value: 100000000
       objectReference: {fileID: 0}
     - target: {fileID: 114257289990735220, guid: 60834fe68a0e78f4fa6e60f45fd8f6ef,
         type: 2}
       propertyPath: maxMotorTorque
-      value: 1
+      value: 100000000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60834fe68a0e78f4fa6e60f45fd8f6ef, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1001 &75852898
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4933845992649490, guid: 889dad9f8f2d63844a69206fba7b19c3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -43.794098
+      objectReference: {fileID: 0}
+    - target: {fileID: 4933845992649490, guid: 889dad9f8f2d63844a69206fba7b19c3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.1283882
+      objectReference: {fileID: 0}
+    - target: {fileID: 4933845992649490, guid: 889dad9f8f2d63844a69206fba7b19c3, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 16.592999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4933845992649490, guid: 889dad9f8f2d63844a69206fba7b19c3, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4933845992649490, guid: 889dad9f8f2d63844a69206fba7b19c3, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4933845992649490, guid: 889dad9f8f2d63844a69206fba7b19c3, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4933845992649490, guid: 889dad9f8f2d63844a69206fba7b19c3, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4933845992649490, guid: 889dad9f8f2d63844a69206fba7b19c3, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114645173295189286, guid: 889dad9f8f2d63844a69206fba7b19c3,
+        type: 2}
+      propertyPath: force
+      value: 1.3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 889dad9f8f2d63844a69206fba7b19c3, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1001 &602585350
 Prefab:
@@ -207,7 +254,7 @@ Prefab:
     - target: {fileID: 114566682680284990, guid: 58a5c5e7d9550864187c9b6e17725668,
         type: 2}
       propertyPath: maxMotorTorque
-      value: 1
+      value: 100000000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58a5c5e7d9550864187c9b6e17725668, type: 2}
@@ -355,6 +402,48 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &1046865910
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4951770731690022, guid: 93c5ae0906e29c347aab72bfe9bc1587, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -43.504932
+      objectReference: {fileID: 0}
+    - target: {fileID: 4951770731690022, guid: 93c5ae0906e29c347aab72bfe9bc1587, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.62667155
+      objectReference: {fileID: 0}
+    - target: {fileID: 4951770731690022, guid: 93c5ae0906e29c347aab72bfe9bc1587, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 15.3207855
+      objectReference: {fileID: 0}
+    - target: {fileID: 4951770731690022, guid: 93c5ae0906e29c347aab72bfe9bc1587, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4951770731690022, guid: 93c5ae0906e29c347aab72bfe9bc1587, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4951770731690022, guid: 93c5ae0906e29c347aab72bfe9bc1587, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4951770731690022, guid: 93c5ae0906e29c347aab72bfe9bc1587, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4951770731690022, guid: 93c5ae0906e29c347aab72bfe9bc1587, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 93c5ae0906e29c347aab72bfe9bc1587, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1001 &1377127587
 Prefab:
   m_ObjectHideFlags: 0
@@ -407,7 +496,7 @@ Prefab:
     - target: {fileID: 114991626593573674, guid: 50153d7c162ea5142ac4ddced8b4bda6,
         type: 2}
       propertyPath: maxMotorTorque
-      value: 1
+      value: 100000000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50153d7c162ea5142ac4ddced8b4bda6, type: 2}
@@ -454,12 +543,12 @@ Prefab:
     - target: {fileID: 114490972552606132, guid: d4904a1b3808ec247a5a78a9916f88b6,
         type: 2}
       propertyPath: maxMotorTorque
-      value: 1
+      value: 100000000
       objectReference: {fileID: 0}
     - target: {fileID: 114238970647776762, guid: d4904a1b3808ec247a5a78a9916f88b6,
         type: 2}
       propertyPath: maxMotorTorque
-      value: 1
+      value: 100000000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4904a1b3808ec247a5a78a9916f88b6, type: 2}

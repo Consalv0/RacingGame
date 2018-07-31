@@ -19,22 +19,30 @@ public class Test_Move : MonoBehaviour {
   public void FixedUpdate()
   {
     float motorTorque = maxMotorTorque;
-    motorTorque *= 90000;
+   // motorTorque *= 2;
     float steeringAngle = maxSteeringAngle * Input.GetAxis("Horizontal");
-
+    if (debugTorque())
+      Debug.Log(maxMotorTorque);
     backAxle.UpdateRotationAndTorque(steeringAngle, motorTorque);
     frontAxle.UpdateRotationAndTorque(steeringAngle, motorTorque);
+  }
+  private bool debugTorque()
+  {
+    if (Input.GetKeyDown(KeyCode.D))
+      return true;
+    else
+      return false;
   }
   // Update is called once per frame
   //void Update()
   //{
 
   //  float translation = speed;
-    
+
   //  translation *= Time.deltaTime;
-   
+
   //  transform.Translate(0, 0, translation);
-   
+
 
   //}
 
