@@ -18,8 +18,8 @@ internal class WheelBahviourEditor : Editor {
 		DrawDefaultInspector();
 		RecalculateGUI();
 
-		if (targetScript.m_suspensionDistance < 0) {
-			targetScript.m_suspensionDistance = 0;
+		if (targetScript.suspensionDistance < 0) {
+			targetScript.suspensionDistance = 0;
 		}
 
 		serializedObject.ApplyModifiedProperties();
@@ -35,19 +35,17 @@ internal class WheelBahviourEditor : Editor {
 
 	private void RecalculateGUI() {
 		if (!wheelCollider) return;
-		if (!targetScript.m_chassisRigidbody) return;
-		if (targetScript.m_anchor.Equals(targetScript.transform.localPosition) 
-		    && targetScript.m_grossor.Equals(wheelCollider.bounds.extents.x)
-		    && targetScript.m_radius.Equals(wheelCollider.bounds.extents.y)
-		    && targetScript.m_suspensionForce.Equals(targetScript.m_chassisRigidbody.mass)
+		if (!targetScript.chassisRigidbody) return;
+		if (targetScript.anchor.Equals(targetScript.transform.localPosition) 
+		    && targetScript.grossor.Equals(wheelCollider.bounds.extents.x)
+		    && targetScript.radius.Equals(wheelCollider.bounds.extents.y)
 		   ) return;
 
 		if (GUILayout.Button("Recalculate Properties")) {
-			targetScript.m_anchor = targetScript.transform.localPosition;
-			targetScript.m_suspensionForce = targetScript.m_chassisRigidbody.mass;
+			targetScript.anchor = targetScript.transform.localPosition;
 
-			targetScript.m_grossor = wheelCollider.bounds.extents.x;
-			targetScript.m_radius = wheelCollider.bounds.extents.y;
+			targetScript.grossor = wheelCollider.bounds.extents.x;
+			targetScript.radius = wheelCollider.bounds.extents.y;
 		}
 	}
 }

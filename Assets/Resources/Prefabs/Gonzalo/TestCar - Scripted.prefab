@@ -41,6 +41,7 @@ GameObject:
   - component: {fileID: 23814162671833314}
   - component: {fileID: 54567820226891276}
   - component: {fileID: 64729600060345210}
+  - component: {fileID: 114799881206871554}
   m_Layer: 10
   m_Name: TestCar - Scripted
   m_TagString: Untagged
@@ -183,7 +184,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1483441924219120}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.676, z: 0}
+  m_LocalPosition: {x: 0, y: 2.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4096612250627426}
@@ -570,12 +571,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40f98907d8ffc45cba38ac16dd44e7f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_chassisRigidbody: {fileID: 54567820226891276}
-  m_anchor: {x: -0.794926, y: 0.410504, z: -0.648222}
-  m_suspensionDistance: 0.3
-  m_suspensionForce: 15000
-  m_radius: 0.4108826
-  m_grossor: 0.19890898
+  chassisRigidbody: {fileID: 54567820226891276}
+  anchor: {x: -0.794926, y: 0.410504, z: -0.648222}
+  suspensionDistance: 0.2
+  dampingRatio: 0.3
+  suspensionForce: 7500
+  radius: 0.41088247
+  grossor: 0.19890898
 --- !u!114 &114715696846282314
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -587,12 +589,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40f98907d8ffc45cba38ac16dd44e7f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_chassisRigidbody: {fileID: 54567820226891276}
-  m_anchor: {x: 0.804074, y: 0.410504, z: -0.648222}
-  m_suspensionDistance: 0.3
-  m_suspensionForce: 15000
-  m_radius: 0.41088253
-  m_grossor: 0.19890904
+  chassisRigidbody: {fileID: 54567820226891276}
+  anchor: {x: 0.804074, y: 0.410504, z: -0.648222}
+  suspensionDistance: 0.2
+  dampingRatio: 0.3
+  suspensionForce: 7500
+  radius: 0.41088247
+  grossor: 0.19890904
+--- !u!114 &114799881206871554
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1483441924219120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f055634249d9448a9a28fad055f2f4bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  axleFront:
+    leftWheel: {fileID: 114809665222910850}
+    rightWheel: {fileID: 114818699589422072}
+    motor: 0
+    steering: 1
+  axleBack:
+    leftWheel: {fileID: 114715696846282314}
+    rightWheel: {fileID: 114350845422225484}
+    motor: 1
+    steering: 0
 --- !u!114 &114809665222910850
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -604,12 +628,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40f98907d8ffc45cba38ac16dd44e7f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_chassisRigidbody: {fileID: 54567820226891276}
-  m_anchor: {x: 0.795396, y: 0.410503, z: 0.854134}
-  m_suspensionDistance: 0.3
-  m_suspensionForce: 15000
-  m_radius: 0.41088253
-  m_grossor: 0.19890898
+  chassisRigidbody: {fileID: 54567820226891276}
+  anchor: {x: 0.795396, y: 0.410503, z: 0.854134}
+  suspensionDistance: 0.2
+  dampingRatio: 0.3
+  suspensionForce: 7500
+  radius: 0.41088247
+  grossor: 0.19890898
 --- !u!114 &114818699589422072
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -621,9 +646,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40f98907d8ffc45cba38ac16dd44e7f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_chassisRigidbody: {fileID: 54567820226891276}
-  m_anchor: {x: -0.794926, y: 0.410503, z: 0.846312}
-  m_suspensionDistance: 0.3
-  m_suspensionForce: 15000
-  m_radius: 0.41088253
-  m_grossor: 0.19890898
+  chassisRigidbody: {fileID: 54567820226891276}
+  anchor: {x: -0.794926, y: 0.410503, z: 0.846312}
+  suspensionDistance: 0.2
+  dampingRatio: 0.3
+  suspensionForce: 7500
+  radius: 0.41088247
+  grossor: 0.19890898
