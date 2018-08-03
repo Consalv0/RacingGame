@@ -11,11 +11,13 @@ public class Car_Audio : MonoBehaviour {
     public float PitchRange = 0.2f;           
     private float OriginalPitch;
     public int audios = 0;
+    bool start = false;
 
     private void Start()
     {
         MovementAudio.clip = EngineStarting;
-        //MovementAudio.Play();
+        StartCoroutine("TiempoInicio");
+        MovementAudio.Play();
     }
 
 
@@ -27,21 +29,39 @@ public class Car_Audio : MonoBehaviour {
 
     private void EngineAudio()
     {
-        if (Input.GetKey("a"))
+        if (start == false)
         {
-            if (MovementAudio.clip == EngineIdling || MovementAudio.clip == EngineStarting)
-            {
-                MovementAudio.clip = EngineAcelerating;
-                MovementAudio.Play();
-            }
+            //MovementAudio.Play();
         }
         else
         {
-            if (MovementAudio.clip == EngineAcelerating || MovementAudio.clip == EngineStarting)
+            if (Input.GetKey("a"))
             {
-                MovementAudio.clip = EngineIdling;
-                MovementAudio.Play();
+                if (MovementAudio.clip == EngineIdling || MovementAudio.clip == EngineStarting)
+                {
+                    MovementAudio.clip = EngineAcelerating;
+                    MovementAudio.Play();
+                }
+            }
+            else
+            {
+                if (MovementAudio.clip == EngineAcelerating || MovementAudio.clip == EngineStarting)
+                {
+                    MovementAudio.clip = EngineIdling;
+                    MovementAudio.Play();
+                }
             }
         }
+    }
+
+    IEnumerator TiempoInicio()
+    {
+        int counter = 5;
+        while (counter > 0)
+        {
+            yield return new WaitForSeconds(1);
+            counter--;
+        }
+        start = true;
     }
 }

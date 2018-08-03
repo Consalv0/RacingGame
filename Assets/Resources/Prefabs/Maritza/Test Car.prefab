@@ -610,7 +610,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 08ffdc5804513a043bf5066f9f1faada, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 06bc0efb531dfc042a370e42fd98ec9d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -739,6 +739,7 @@ MonoBehaviour:
   EngineAcelerating: {fileID: 8300000, guid: 2fbe07b40590e2e48a4ad3abdba74db0, type: 3}
   EngineStarting: {fileID: 8300000, guid: 08ffdc5804513a043bf5066f9f1faada, type: 3}
   PitchRange: 0.2
+  audios: 0
 --- !u!146 &146580275301771622
 WheelCollider:
   m_ObjectHideFlags: 1
