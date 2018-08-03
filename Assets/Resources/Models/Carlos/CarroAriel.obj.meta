@@ -1,0 +1,174 @@
+fileFormatVersion: 2
+guid: 3704249aaf64d9940b127ae8821f3fec
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Auto_Carrocer_a
+    100002: Auto_Defensa
+    100004: Auto_Llanta_Delantera_rgt_LLantas
+    100006: Auto_LLanta_trasera_rgt
+    100008: Auto_LLanta_trasera_rgt1
+    100010: Auto_LLantas_Llanta_Delantera_rgt1
+    100012: Auto_Motor_pDisc1
+    100014: Auto_Motor_pPlane1
+    100016: Auto_Motor_pTorus1
+    100018: Auto_pPlane4_Motor
+    100020: Auto_Retrovisores
+    100022: Auto_Spoiler
+    100024: Auto_Trasero
+    100026: //RootNode
+    100028: polySurface3_FrontCar_Auto
+    400000: Auto_Carrocer_a
+    400002: Auto_Defensa
+    400004: Auto_Llanta_Delantera_rgt_LLantas
+    400006: Auto_LLanta_trasera_rgt
+    400008: Auto_LLanta_trasera_rgt1
+    400010: Auto_LLantas_Llanta_Delantera_rgt1
+    400012: Auto_Motor_pDisc1
+    400014: Auto_Motor_pPlane1
+    400016: Auto_Motor_pTorus1
+    400018: Auto_pPlane4_Motor
+    400020: Auto_Retrovisores
+    400022: Auto_Spoiler
+    400024: Auto_Trasero
+    400026: //RootNode
+    400028: polySurface3_FrontCar_Auto
+    2100000: Auto_Carrocer_aMat
+    2100002: Auto_DefensaMat
+    2100004: Auto_Llanta_Delantera_rgt_LLantasMat
+    2100006: Auto_LLanta_trasera_rgtMat
+    2100008: Auto_LLanta_trasera_rgt1Mat
+    2100010: Auto_LLantas_Llanta_Delantera_rgt1Mat
+    2100012: Auto_Motor_pDisc1Mat
+    2100014: Auto_Motor_pPlane1Mat
+    2100016: Auto_Motor_pTorus1Mat
+    2100018: Auto_pPlane4_MotorMat
+    2100020: Auto_RetrovisoresMat
+    2100022: Auto_SpoilerMat
+    2100024: Auto_TraseroMat
+    2100026: polySurface3_FrontCar_AutoMat
+    2300000: Auto_Carrocer_a
+    2300002: Auto_Defensa
+    2300004: Auto_Llanta_Delantera_rgt_LLantas
+    2300006: Auto_LLanta_trasera_rgt
+    2300008: Auto_LLanta_trasera_rgt1
+    2300010: Auto_LLantas_Llanta_Delantera_rgt1
+    2300012: Auto_Motor_pDisc1
+    2300014: Auto_Motor_pPlane1
+    2300016: Auto_Motor_pTorus1
+    2300018: Auto_pPlane4_Motor
+    2300020: Auto_Retrovisores
+    2300022: Auto_Spoiler
+    2300024: Auto_Trasero
+    2300026: polySurface3_FrontCar_Auto
+    3300000: Auto_Carrocer_a
+    3300002: Auto_Defensa
+    3300004: Auto_Llanta_Delantera_rgt_LLantas
+    3300006: Auto_LLanta_trasera_rgt
+    3300008: Auto_LLanta_trasera_rgt1
+    3300010: Auto_LLantas_Llanta_Delantera_rgt1
+    3300012: Auto_Motor_pDisc1
+    3300014: Auto_Motor_pPlane1
+    3300016: Auto_Motor_pTorus1
+    3300018: Auto_pPlane4_Motor
+    3300020: Auto_Retrovisores
+    3300022: Auto_Spoiler
+    3300024: Auto_Trasero
+    3300026: polySurface3_FrontCar_Auto
+    4300000: Auto_Carrocer_a
+    4300002: Auto_Defensa
+    4300004: Auto_Llanta_Delantera_rgt_LLantas
+    4300006: Auto_LLanta_trasera_rgt
+    4300008: Auto_LLanta_trasera_rgt1
+    4300010: Auto_LLantas_Llanta_Delantera_rgt1
+    4300012: Auto_Motor_pDisc1
+    4300014: Auto_Motor_pPlane1
+    4300016: Auto_Motor_pTorus1
+    4300018: Auto_pPlane4_Motor
+    4300020: Auto_Retrovisores
+    4300022: Auto_Spoiler
+    4300024: Auto_Trasero
+    4300026: polySurface3_FrontCar_Auto
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

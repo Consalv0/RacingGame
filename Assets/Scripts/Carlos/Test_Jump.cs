@@ -29,12 +29,8 @@ public class Test_Jump : MonoBehaviour {
 
   bool Timer(float time)
   {
-
     if (time < 0)
-    {
       return true;
-    }
-      
     else
       return false;
   }
