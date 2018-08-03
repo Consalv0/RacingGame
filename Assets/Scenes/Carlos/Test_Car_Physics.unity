@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -211,6 +211,68 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 889dad9f8f2d63844a69206fba7b19c3, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1001 &168967115
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4823334522792176, guid: fcbc6d745d7ebc643bf7eefd9f32045f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -3.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 4823334522792176, guid: fcbc6d745d7ebc643bf7eefd9f32045f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4823334522792176, guid: fcbc6d745d7ebc643bf7eefd9f32045f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4823334522792176, guid: fcbc6d745d7ebc643bf7eefd9f32045f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4823334522792176, guid: fcbc6d745d7ebc643bf7eefd9f32045f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4823334522792176, guid: fcbc6d745d7ebc643bf7eefd9f32045f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4823334522792176, guid: fcbc6d745d7ebc643bf7eefd9f32045f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4823334522792176, guid: fcbc6d745d7ebc643bf7eefd9f32045f, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 82878633301683770, guid: fcbc6d745d7ebc643bf7eefd9f32045f,
+        type: 2}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114828225993587076, guid: fcbc6d745d7ebc643bf7eefd9f32045f,
+        type: 2}
+      propertyPath: MovementAudio
+      value: 
+      objectReference: {fileID: 1535220137}
+    - target: {fileID: 82878633301683770, guid: fcbc6d745d7ebc643bf7eefd9f32045f,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 82878633301683770, guid: fcbc6d745d7ebc643bf7eefd9f32045f,
+        type: 2}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fcbc6d745d7ebc643bf7eefd9f32045f, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1001 &602585350
 Prefab:
@@ -558,3 +620,8 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4904a1b3808ec247a5a78a9916f88b6, type: 2}
   m_IsPrefabAsset: 0
+--- !u!82 &1535220137 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 82878633301683770, guid: fcbc6d745d7ebc643bf7eefd9f32045f,
+    type: 2}
+  m_PrefabInternal: {fileID: 168967115}
