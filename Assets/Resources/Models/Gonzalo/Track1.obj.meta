@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: d73a18ccfdac7604fa8be51ddf5de573
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: group5_polySurface104
+    100002: group5_polySurface92
+    100004: pasted__TrackMara_Grupo_Pista2_pasted__TrackMara_Pista1_group5_polySurface104
+    100006: pasted__TrackMara_Grupo_Pista2_pasted__TrackMara_Pista1_group5_polySurface92
+    100008: pasted__TrackMara_Grupo_Pista2_pasted__TrackMara_Pista1_polySurface85
+    100010: pasted__TrackMara_Grupo_Pista2_pasted__TrackMara_Pista1_WithLamp12_group5
+    100012: Pista_TrackMara_Grupo_Pista_polySurface105
+    100014: polySurface105
+    100016: polySurface85
+    100018: pPlane7_polySurface5_polySurface6_polySurface85
+    100020: //RootNode
+    100022: WithLamp12_group5
+    100024: WithLamp14_track_pasted__TrackMara_Grupo_Pista2_track_pasted__TrackMara_Pista1_track_polySurface1
+    100026: WithLamp14_track_polySurface1
+    400000: group5_polySurface104
+    400002: group5_polySurface92
+    400004: pasted__TrackMara_Grupo_Pista2_pasted__TrackMara_Pista1_group5_polySurface104
+    400006: pasted__TrackMara_Grupo_Pista2_pasted__TrackMara_Pista1_group5_polySurface92
+    400008: pasted__TrackMara_Grupo_Pista2_pasted__TrackMara_Pista1_polySurface85
+    400010: pasted__TrackMara_Grupo_Pista2_pasted__TrackMara_Pista1_WithLamp12_group5
+    400012: Pista_TrackMara_Grupo_Pista_polySurface105
+    400014: polySurface105
+    400016: polySurface85
+    400018: pPlane7_polySurface5_polySurface6_polySurface85
+    400020: //RootNode
+    400022: WithLamp12_group5
+    400024: WithLamp14_track_pasted__TrackMara_Grupo_Pista2_track_pasted__TrackMara_Pista1_track_polySurface1
+    400026: WithLamp14_track_polySurface1
+    2100000: group5_polySurface104Mat
+    2100002: group5_polySurface92Mat
+    2100004: pasted__TrackMara_Grupo_Pista2_pasted__TrackMara_Pista1_group5_polySurface104Mat
+    2100006: pasted__TrackMara_Grupo_Pista2_pasted__TrackMara_Pista1_group5_polySurface92Mat
+    2100008: pasted__TrackMara_Grupo_Pista2_pasted__TrackMara_Pista1_polySurface85Mat
+    2100010: pasted__TrackMara_Grupo_Pista2_pasted__TrackMara_Pista1_WithLamp12_group5Mat
+    2100012: Pista_TrackMara_Grupo_Pista_polySurface105Mat
+    2100014: polySurface105Mat
+    2100016: polySurface85Mat
+    2100018: pPlane7_polySurface5_polySurface6_polySurface85Mat
+    2100020: WithLamp12_group5Mat
+    2100022: WithLamp14_track_pasted__TrackMara_Grupo_Pista2_track_pasted__TrackMara_Pista1_track_polySurface1Mat
+    2100024: WithLamp14_track_polySurface1Mat
+    2300000: group5_polySurface104
+    2300002: group5_polySurface92
+    2300004: pasted__TrackMara_Grupo_Pista2_pasted__TrackMara_Pista1_group5_polySurface104
+    2300006: pasted__TrackMara_Grupo_Pista2_pasted__TrackMara_Pista1_group5_polySurface92
+    2300008: pasted__TrackMara_Grupo_Pista2_pasted__TrackMara_Pista1_polySurface85
+    2300010: pasted__TrackMara_Grupo_Pista2_pasted__TrackMara_Pista1_WithLamp12_group5
+    2300012: Pista_TrackMara_Grupo_Pista_polySurface105
+    2300014: polySurface105
+    2300016: polySurface85
+    2300018: pPlane7_polySurface5_polySurface6_polySurface85
+    2300020: WithLamp12_group5
+    2300022: WithLamp14_track_pasted__TrackMara_Grupo_Pista2_track_pasted__TrackMara_Pista1_track_polySurface1
+    2300024: WithLamp14_track_polySurface1
+    3300000: group5_polySurface104
+    3300002: group5_polySurface92
+    3300004: pasted__TrackMara_Grupo_Pista2_pasted__TrackMara_Pista1_group5_polySurface104
+    3300006: pasted__TrackMara_Grupo_Pista2_pasted__TrackMara_Pista1_group5_polySurface92
+    3300008: pasted__TrackMara_Grupo_Pista2_pasted__TrackMara_Pista1_polySurface85
+    3300010: pasted__TrackMara_Grupo_Pista2_pasted__TrackMara_Pista1_WithLamp12_group5
+    3300012: Pista_TrackMara_Grupo_Pista_polySurface105
+    3300014: polySurface105
+    3300016: polySurface85
+    3300018: pPlane7_polySurface5_polySurface6_polySurface85
+    3300020: WithLamp12_group5
+    3300022: WithLamp14_track_pasted__TrackMara_Grupo_Pista2_track_pasted__TrackMara_Pista1_track_polySurface1
+    3300024: WithLamp14_track_polySurface1
+    4300000: group5_polySurface104
+    4300002: group5_polySurface92
+    4300004: pasted__TrackMara_Grupo_Pista2_pasted__TrackMara_Pista1_group5_polySurface104
+    4300006: pasted__TrackMara_Grupo_Pista2_pasted__TrackMara_Pista1_group5_polySurface92
+    4300008: pasted__TrackMara_Grupo_Pista2_pasted__TrackMara_Pista1_polySurface85
+    4300010: pasted__TrackMara_Grupo_Pista2_pasted__TrackMara_Pista1_WithLamp12_group5
+    4300012: Pista_TrackMara_Grupo_Pista_polySurface105
+    4300014: polySurface105
+    4300016: polySurface85
+    4300018: pPlane7_polySurface5_polySurface6_polySurface85
+    4300020: WithLamp12_group5
+    4300022: WithLamp14_track_pasted__TrackMara_Grupo_Pista2_track_pasted__TrackMara_Pista1_track_polySurface1
+    4300024: WithLamp14_track_polySurface1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

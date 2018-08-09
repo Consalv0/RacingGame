@@ -14,7 +14,7 @@ public class Test_Move : MonoBehaviour {
 
   private void Awake()
   {
-    //maxMotorTorque *= 10000000000;
+    maxMotorTorque *= 10000000000;
   }
   public void FixedUpdate()
   {
