@@ -8,8 +8,9 @@ public class Test_Jump : MonoBehaviour {
   public float timeLeft;
   public float force;
   private float timep;
-	// Use this for initialization
-	void Start () {
+  public char player;
+  // Use this for initialization
+  void Start () {
     timep = timeLeft;
     force *= 10000;
     rb = GetComponent<Rigidbody>();
@@ -19,11 +20,15 @@ public class Test_Jump : MonoBehaviour {
 	void Update () {
     Debug.Log(timep);
     timeLeft -= Time.deltaTime;
-    if (Timer(timeLeft))
+    if (Timer(timeLeft)&& Input.GetAxis("jump"+player)>0)
     {
       Debug.Log("activate");
-      rb.AddForce(new Vector3(0,force,0), ForceMode.Impulse);
+      rb.AddForce(new Vector3(0,force* Input.GetAxis("jump"+player), 0), ForceMode.Impulse);
       timeLeft = timep;
+    }
+    if(timeLeft<0)
+    {
+      timeLeft = -1;
     }
 	}
 

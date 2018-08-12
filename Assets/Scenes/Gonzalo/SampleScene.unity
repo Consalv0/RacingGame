@@ -1304,11 +1304,6 @@ Transform:
   m_Father: {fileID: 1025611478}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &615914930 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4397311794166218, guid: 431259128550c3d46ad7fde373d18d5c,
-    type: 2}
-  m_PrefabInternal: {fileID: 1618952227}
 --- !u!1001 &680506484
 Prefab:
   m_ObjectHideFlags: 0
@@ -2449,7 +2444,7 @@ MonoBehaviour:
   damping: 1
   elasticity: 2.5
   naturalOffset: {x: 0, y: -4, z: 10}
-  target: {fileID: 615914930}
+  target: {fileID: 404952619}
 --- !u!1 &1011839595
 GameObject:
   m_ObjectHideFlags: 0

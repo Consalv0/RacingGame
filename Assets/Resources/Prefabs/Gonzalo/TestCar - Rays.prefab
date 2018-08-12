@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33213318306882826}
   - component: {fileID: 23348084503085350}
   - component: {fileID: 114694919034576494}
+  - component: {fileID: 64578329715118256}
   m_Layer: 9
   m_Name: Wheel_Back_L
   m_TagString: Untagged
@@ -40,6 +41,7 @@ GameObject:
   - component: {fileID: 33307522983473230}
   - component: {fileID: 23099877046688620}
   - component: {fileID: 114876525755458330}
+  - component: {fileID: 64841772088552178}
   m_Layer: 9
   m_Name: Wheel_Front_R
   m_TagString: Untagged
@@ -58,8 +60,9 @@ GameObject:
   - component: {fileID: 33936699531828030}
   - component: {fileID: 23338848112541490}
   - component: {fileID: 114365231782192176}
+  - component: {fileID: 64568652229079488}
   m_Layer: 9
-  m_Name: WheelFrontL
+  m_Name: Wheel_Front_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -117,6 +120,7 @@ GameObject:
   - component: {fileID: 33900862189791554}
   - component: {fileID: 23023609962865742}
   - component: {fileID: 114791529141475538}
+  - component: {fileID: 64492627764279340}
   m_Layer: 9
   m_Name: Wheel_Back_R
   m_TagString: Untagged
@@ -196,7 +200,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1644849695468478}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 39.94, z: 67.14}
+  m_LocalPosition: {x: 0.037490413, y: 0.93, z: 0.21591422}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4323420009324018}
@@ -504,6 +508,62 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300010, guid: cadfeef8180a94509a5fc2f66739d25b, type: 3}
+--- !u!64 &64492627764279340
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1746261173781536}
+  m_Material: {fileID: 13400000, guid: bd4724741fa534706b2a4c861fcd02fa, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300004, guid: cadfeef8180a94509a5fc2f66739d25b, type: 3}
+--- !u!64 &64568652229079488
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1593349002624370}
+  m_Material: {fileID: 13400000, guid: bd4724741fa534706b2a4c861fcd02fa, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 0}
+--- !u!64 &64578329715118256
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1020891042298622}
+  m_Material: {fileID: 13400000, guid: bd4724741fa534706b2a4c861fcd02fa, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 0}
+--- !u!64 &64841772088552178
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1202189412427456}
+  m_Material: {fileID: 13400000, guid: bd4724741fa534706b2a4c861fcd02fa, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 0}
 --- !u!64 &64843533855317194
 MeshCollider:
   m_ObjectHideFlags: 1
@@ -533,7 +593,7 @@ MonoBehaviour:
   leftWheel: {fileID: 114365231782192176}
   rightWheel: {fileID: 114876525755458330}
   maxMotorForce: 0.05
-  rotationForce: 0.25
+  rotationForce: 0.05
   maxSteerAngle: 30
 --- !u!114 &114365231782192176
 MonoBehaviour:
@@ -546,11 +606,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d220cafca3a45846a97bb8984c9056d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chassisRigidbody: {fileID: 0}
   pivot: {x: 0, y: 0, z: 0}
-  collisionRadius: 0.1
-  radius: 0.4108825
+  collisionRadius: 0.2
+  radius: 0.5108825
   grossor: 0.198909
+  sideFriction:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1.0083313
+      value: 2.01828
+      inSlope: 5.0179315
+      outSlope: 5.0179315
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.14049412
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &114694919034576494
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -562,11 +645,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d220cafca3a45846a97bb8984c9056d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chassisRigidbody: {fileID: 0}
   pivot: {x: 0, y: 0, z: 0}
-  collisionRadius: 0.1
-  radius: 0.4108825
+  collisionRadius: 0.2
+  radius: 0.5108825
   grossor: 0.198909
+  sideFriction:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1.0083313
+      value: 2.01828
+      inSlope: 5.0179315
+      outSlope: 5.0179315
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.14049412
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &114791529141475538
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -578,11 +684,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d220cafca3a45846a97bb8984c9056d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chassisRigidbody: {fileID: 0}
   pivot: {x: 0, y: 0, z: 0}
-  collisionRadius: 0.1
-  radius: 0.4108825
+  collisionRadius: 0.2
+  radius: 0.5108825
   grossor: 0.198909
+  sideFriction:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1.0083313
+      value: 2.01828
+      inSlope: 5.0179315
+      outSlope: 5.0179315
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.14049412
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &114876525755458330
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -594,11 +723,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d220cafca3a45846a97bb8984c9056d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chassisRigidbody: {fileID: 0}
   pivot: {x: 0, y: 0, z: 0}
-  collisionRadius: 0.1
-  radius: 0.4108825
+  collisionRadius: 0.2
+  radius: 0.5108825
   grossor: 0.198909
+  sideFriction:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1.0083313
+      value: 2.01828
+      inSlope: 5.0179315
+      outSlope: 5.0179315
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.14049412
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &114986251336486716
 MonoBehaviour:
   m_ObjectHideFlags: 1
