@@ -10,6 +10,12 @@ public class Wheel : MonoBehaviour {
 	public float collisionRadius = 0.2F;
 	public float radius = 0.5F;
 	public float grossor = 0.1F;
+	[Range(0, 1)]
+	public float compressionFrictionFactor = 0;
+	[Range(0, 1)]
+	public float forwardStiffnessFactor = 0;
+	[Range(0, 1)]
+	public float sidewaysStiffnessFactor = 0;
 	public AnimationCurve sideFrictionCurve = AnimationCurve.EaseInOut (0, -1, 1, 1);
 	public AnimationCurve forwardFrictionCurve = AnimationCurve.EaseInOut (0, -1, 1, 1);
 	[Header("Spring")]
@@ -29,19 +35,21 @@ public class Wheel : MonoBehaviour {
 	private Vector3 m_springVelocity;
 	private float m_wheelCircumference;
 	private Vector3 m_localVelocity;
+	private float m_forwardSlip;
+	private float m_usedForwardFriction;
+	private float m_sideSlip;
+	private float m_usedSideFriction;
 
 	private void Start () {
 		m_wheelCircumference = radius * Mathf.PI * 2;
 	}
 
 	private void SolveGroundCollision() {
-		Vector3 downwards = transform.TransformDirection (-Vector3.up);
+		Vector3 down = transform.TransformDirection (-Vector3.up);
 		RaycastHit hit;
 
-		if (Physics.Raycast (GroundRay, out hit, radius, gameObject.layer)) {
+		if (Physics.Raycast (GroundRay, out hit, radius + springRadius, gameObject.layer)) {
 			m_grounded = true;
-			// the velocity at point of contact
-			Vector3 velocityAtTouch = chassisRigidbody.GetPointVelocity (hit.point);
 
 			// calculate spring compression
 			// difference in positions divided by total suspension range
@@ -49,42 +57,54 @@ public class Wheel : MonoBehaviour {
 			compression = -compression + 1;
 
 			// final force
-			Vector3 force = -downwards * compression * springForce;
+			Vector3 force = -down * compression * springForce;
 			// velocity at point of contact transformed into local space
 
-			Vector3 t = transform.InverseTransformDirection (velocityAtTouch);
+			Vector3 t = transform.InverseTransformDirection (m_localVelocity);
 
 			// local x and z directions = 0
 			t.z = t.x = 0;
 
 			// back to world space * -damping
-			Vector3 damping = transform.TransformDirection (t) * -damper;
-			Vector3 finalForce = force + damping;
-
-			// VERY simple turning - force rigidbody in direction of wheel
-			t = chassisRigidbody.transform.InverseTransformDirection (velocityAtTouch);
-			t.y = 0;
-			t.z = 0;
-
-			t = visual.TransformDirection (t);
+			// this force simulates the force exerted by the friction in the suspension.
+			Vector3 shockDrag = transform.TransformDirection (t) * -damper;
 
 			// forwardDifference = local speed along the z axis
-			// the difference between the speed of the ground and the wheel taking rotation + the car's velocity into account. 
-			// (in local space, that means, relative to the wheel. So if you were standing on the wheel surface, 
-			// how fast would you percieve the ground moving? Either squashing you every time the wheel goes around 
-			// (not skidding, absolute value close to zero) or scrapping you to bits (skidding, large absolute value))
+			float forwardDifference = transform.InverseTransformDirection(m_localVelocity).z - m_localVelocity.magnitude;
 
-			float forwardDifference = transform.InverseTransformDirection (velocityAtTouch).z - m_localVelocity.z;
-			Vector3 forwardForce = transform.TransformDirection (new Vector3 (0, 0, -forwardDifference));
+			// newForwardFriction = interpolated between forwardFriction (constant) and
+			// increase the current working friction value depending on how hard the shock is pressing the wheel against the ground
+			float newForwardFriction = Mathf.Lerp(chassisRigidbody.mass / 10, chassisRigidbody.mass / 10 * compression * 1, compressionFrictionFactor);
+			m_usedForwardFriction = Mathf.Lerp(m_usedForwardFriction, newForwardFriction, Time.fixedDeltaTime);
+
+			// calculate one component of the friction force: the difference between the wheel surface velocity and ground surface 
+			// velocity times friction (not based on real physics AFAIK)
+			Vector3 forwardForce = transform.TransformDirection(new Vector3(0, 0, -forwardDifference)) * m_usedForwardFriction;
+
+			// calculate how much we be slippin  (if the force is high, the tire will give and slip on the road)
+			m_forwardSlip = Mathf.Lerp(forwardForce.magnitude, forwardDifference, forwardStiffnessFactor) / chassisRigidbody.mass / 10;
+
+			// forwardDifference = local speed along the x axis
+			float sidewaysDifference = transform.InverseTransformDirection(m_localVelocity).x;
+			float newSideFriction = Mathf.Lerp(chassisRigidbody.mass / 10, chassisRigidbody.mass / 10 * compression * 1, compressionFrictionFactor);
+			m_usedSideFriction = Mathf.Lerp(m_usedSideFriction, newSideFriction, Time.fixedDeltaTime);
+
+			Vector3 sideForce = transform.TransformDirection(new Vector3(-sidewaysDifference, 0, 0)) * m_usedSideFriction;
+			m_sideSlip = Mathf.Lerp(sideForce.magnitude, sidewaysDifference, sidewaysStiffnessFactor) / chassisRigidbody.mass / 10;
 
 			Debug.DrawRay (transform.position, forwardForce, Color.yellow);
 
-			chassisRigidbody.AddForceAtPosition (finalForce + (t), hit.point);
-			chassisRigidbody.AddForceAtPosition (-forwardForce * sideFriction * chassisRigidbody.mass, hit.point);
-			// chassisRigidbody.AddForceAtPosition (-velocityAtTouch * sideFriction * chassisRigidbody.mass, hit.point);
+			// this thing is totally made up. It's as if god's hand nudges the car back on course whenever it is moving sideways, 
+			// by a factor of sidewaysDamp
+			t = transform.InverseTransformDirection(m_localVelocity);
+			t.z = 0;
+			t.y = 0;
 
-			pivot = downwards * (hit.distance - radius);
+			Vector3 sideDrag = transform.TransformDirection(t) * -chassisRigidbody.mass / 10;
 
+			// By the some of all you combined, I become CAPTAIN FORCE
+			chassisRigidbody.AddForceAtPosition (-m_localVelocity * sideFriction, hit.point);
+			chassisRigidbody.AddForceAtPosition(force + shockDrag - forwardForce + sideForce + sideDrag, transform.position);
 
 		}
 		else {
