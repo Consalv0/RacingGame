@@ -1,0 +1,579 @@
+fileFormatVersion: 2
+guid: 04e480abbfda48b4ba0451e0be7ab5a4
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Aleron
+    100002: Aleron_soporte
+    100004: Aleron_soportes
+    100006: //RootNode
+    100008: Capo
+    100010: Capo_fibra_carbono
+    100012: Carroceria_del
+    100014: Carroceria_izq
+    100016: Carroceria_tras
+    100018: Carroceria_trasera
+    100020: Correa_motor
+    100022: Engine_estructure
+    100024: Escape_izq
+    100026: Estructura_debajo
+    100028: Facia_delantera
+    100030: Facia_trasera_fibra_carbono
+    100032: Faro_del_izq_cristal
+    100034: Faro_direccional
+    100036: Faro_led
+    100038: Faro_niebla
+    100040: Faro_niebla 1
+    100042: Faro_niebla 2
+    100044: Faro_niebla_carcasa
+    100046: Faro_niebla_carcasa 1
+    100048: Faro_niebla_carcasa 2
+    100050: Faro_niebla_comp
+    100052: Faro_niebla_comp1
+    100054: Faro_niebla_comp2
+    100056: Faro_tras_cristal
+    100058: Faro_tras_fibra_carbono
+    100060: Faro_tras_led
+    100062: Faros_del
+    100064: Lateral_puerta_izq
+    100066: Lateral_puerta_izq_fibra_carbono
+    100068: Llanta_del_der
+    100070: Llanta_del_izq
+    100072: Llanta_tras_der
+    100074: Llanta_tras_izq
+    100076: Motor
+    100078: Motor_carcasa
+    100080: Motor_correa_mediana
+    100082: "Motor_correa_peque\xF1a"
+    100084: Motor_parte
+    100086: Motor_parte0
+    100088: Motor_parte1
+    100090: Motor_parte2
+    100092: Motor_parte3
+    100094: Motor_parte4
+    100096: Motor_parte5
+    100098: Motor_parte6
+    100100: Motor_parte7
+    100102: Motor_parte8
+    100104: Parabrisas_delantero
+    100106: Parabrisas_puerta
+    100108: Parabrisas_trasero
+    100110: Parrila
+    100112: Parrila1
+    100114: Parrila2
+    100116: pCylinder1
+    100118: pCylinder2
+    100120: pCylinder3
+    100122: pCylinder4
+    100124: pCylinder5
+    100126: pCylinder6
+    100128: pCylinder7
+    100130: Placa_del
+    100132: Placa_tras
+    100134: pPlane1
+    100136: pPlane2
+    100138: Puerta_izq
+    100140: Radiador
+    100142: Techo
+    100144: Tuberia_motor
+    100146: Tuberia_motor1
+    100148: Tuberia_motor2
+    100150: Tuberia_motor3
+    100152: Tuberia_motor4
+    100154: Tuberia_motor5
+    100156: Ventila_trasera_fibra_carbono
+    100158: Ventila_trasera_fibra_carbono1
+    100160: Ventila_trasera_fibra_carbono2
+    400000: Aleron
+    400002: Aleron_soporte
+    400004: Aleron_soportes
+    400006: //RootNode
+    400008: Capo
+    400010: Capo_fibra_carbono
+    400012: Carroceria_del
+    400014: Carroceria_izq
+    400016: Carroceria_tras
+    400018: Carroceria_trasera
+    400020: Correa_motor
+    400022: Engine_estructure
+    400024: Escape_izq
+    400026: Estructura_debajo
+    400028: Facia_delantera
+    400030: Facia_trasera_fibra_carbono
+    400032: Faro_del_izq_cristal
+    400034: Faro_direccional
+    400036: Faro_led
+    400038: Faro_niebla
+    400040: Faro_niebla 1
+    400042: Faro_niebla 2
+    400044: Faro_niebla_carcasa
+    400046: Faro_niebla_carcasa 1
+    400048: Faro_niebla_carcasa 2
+    400050: Faro_niebla_comp
+    400052: Faro_niebla_comp1
+    400054: Faro_niebla_comp2
+    400056: Faro_tras_cristal
+    400058: Faro_tras_fibra_carbono
+    400060: Faro_tras_led
+    400062: Faros_del
+    400064: Lateral_puerta_izq
+    400066: Lateral_puerta_izq_fibra_carbono
+    400068: Llanta_del_der
+    400070: Llanta_del_izq
+    400072: Llanta_tras_der
+    400074: Llanta_tras_izq
+    400076: Motor
+    400078: Motor_carcasa
+    400080: Motor_correa_mediana
+    400082: "Motor_correa_peque\xF1a"
+    400084: Motor_parte
+    400086: Motor_parte0
+    400088: Motor_parte1
+    400090: Motor_parte2
+    400092: Motor_parte3
+    400094: Motor_parte4
+    400096: Motor_parte5
+    400098: Motor_parte6
+    400100: Motor_parte7
+    400102: Motor_parte8
+    400104: Parabrisas_delantero
+    400106: Parabrisas_puerta
+    400108: Parabrisas_trasero
+    400110: Parrila
+    400112: Parrila1
+    400114: Parrila2
+    400116: pCylinder1
+    400118: pCylinder2
+    400120: pCylinder3
+    400122: pCylinder4
+    400124: pCylinder5
+    400126: pCylinder6
+    400128: pCylinder7
+    400130: Placa_del
+    400132: Placa_tras
+    400134: pPlane1
+    400136: pPlane2
+    400138: Puerta_izq
+    400140: Radiador
+    400142: Techo
+    400144: Tuberia_motor
+    400146: Tuberia_motor1
+    400148: Tuberia_motor2
+    400150: Tuberia_motor3
+    400152: Tuberia_motor4
+    400154: Tuberia_motor5
+    400156: Ventila_trasera_fibra_carbono
+    400158: Ventila_trasera_fibra_carbono1
+    400160: Ventila_trasera_fibra_carbono2
+    2100000: lambert1
+    2100002: Carroceria_techo_PBS
+    2100004: Fibra_carbono_PBS
+    2100006: Carroceria_lateral_PBS
+    2100008: Parabrisas_PBS
+    2100010: Facia_del_PBS
+    2100012: Parrila_PBS
+    2100014: Carroceria_del_PBS
+    2100016: Faros_plastico_mat
+    2100018: Faros_mat
+    2100020: Faro_del_cristal_
+    2100022: Faros_led_mat
+    2100024: Faros_direccional_mat
+    2100026: Carroceria_trasera_PBS
+    2100028: Faro_trasero_carcasa
+    2100030: Faros_traseros_led_PBS
+    2100032: Escapes_PBS
+    2100034: Llanta_caucho_PBS
+    2100036: Llanta_rin_interior_PBS
+    2100038: Llanta_rin_PBS
+    2300000: Aleron
+    2300002: Aleron_soporte
+    2300004: Aleron_soportes
+    2300006: Capo
+    2300008: Capo_fibra_carbono
+    2300010: Carroceria_trasera
+    2300012: Correa_motor
+    2300014: Engine_estructure
+    2300016: Escape_izq
+    2300018: Facia_delantera
+    2300020: Facia_trasera_fibra_carbono
+    2300022: Faro_del_izq_cristal
+    2300024: Faro_direccional
+    2300026: Faro_led
+    2300028: Faro_niebla
+    2300030: Faro_niebla 1
+    2300032: Faro_niebla 2
+    2300034: Faro_niebla_carcasa
+    2300036: Faro_niebla_carcasa 1
+    2300038: Faro_niebla_carcasa 2
+    2300040: Faro_tras_cristal
+    2300042: Faro_tras_fibra_carbono
+    2300044: Faro_tras_led
+    2300046: Lateral_puerta_izq
+    2300048: Lateral_puerta_izq_fibra_carbono
+    2300050: Llanta_del_der
+    2300052: Llanta_del_izq
+    2300054: Llanta_tras_der
+    2300056: Llanta_tras_izq
+    2300058: Motor_carcasa
+    2300060: Motor_correa_mediana
+    2300062: "Motor_correa_peque\xF1a"
+    2300064: Motor_parte
+    2300066: Motor_parte0
+    2300068: Motor_parte1
+    2300070: Motor_parte2
+    2300072: Motor_parte3
+    2300074: Motor_parte4
+    2300076: Motor_parte5
+    2300078: Motor_parte6
+    2300080: Motor_parte7
+    2300082: Motor_parte8
+    2300084: Parabrisas_delantero
+    2300086: Parabrisas_puerta
+    2300088: Parabrisas_trasero
+    2300090: Parrila
+    2300092: Parrila1
+    2300094: Parrila2
+    2300096: pCylinder1
+    2300098: pCylinder2
+    2300100: pCylinder3
+    2300102: pCylinder4
+    2300104: pCylinder5
+    2300106: pCylinder6
+    2300108: pCylinder7
+    2300110: Placa_del
+    2300112: Placa_tras
+    2300114: pPlane1
+    2300116: pPlane2
+    2300118: Puerta_izq
+    2300120: Radiador
+    2300122: Techo
+    2300124: Tuberia_motor
+    2300126: Tuberia_motor1
+    2300128: Tuberia_motor2
+    2300130: Tuberia_motor3
+    2300132: Tuberia_motor4
+    2300134: Tuberia_motor5
+    2300136: Ventila_trasera_fibra_carbono
+    2300138: Ventila_trasera_fibra_carbono1
+    2300140: Ventila_trasera_fibra_carbono2
+    3300000: Aleron
+    3300002: Aleron_soporte
+    3300004: Aleron_soportes
+    3300006: Capo
+    3300008: Capo_fibra_carbono
+    3300010: Carroceria_trasera
+    3300012: Correa_motor
+    3300014: Engine_estructure
+    3300016: Escape_izq
+    3300018: Facia_delantera
+    3300020: Facia_trasera_fibra_carbono
+    3300022: Faro_del_izq_cristal
+    3300024: Faro_direccional
+    3300026: Faro_led
+    3300028: Faro_niebla
+    3300030: Faro_niebla 1
+    3300032: Faro_niebla 2
+    3300034: Faro_niebla_carcasa
+    3300036: Faro_niebla_carcasa 1
+    3300038: Faro_niebla_carcasa 2
+    3300040: Faro_tras_cristal
+    3300042: Faro_tras_fibra_carbono
+    3300044: Faro_tras_led
+    3300046: Lateral_puerta_izq
+    3300048: Lateral_puerta_izq_fibra_carbono
+    3300050: Llanta_del_der
+    3300052: Llanta_del_izq
+    3300054: Llanta_tras_der
+    3300056: Llanta_tras_izq
+    3300058: Motor_carcasa
+    3300060: Motor_correa_mediana
+    3300062: "Motor_correa_peque\xF1a"
+    3300064: Motor_parte
+    3300066: Motor_parte0
+    3300068: Motor_parte1
+    3300070: Motor_parte2
+    3300072: Motor_parte3
+    3300074: Motor_parte4
+    3300076: Motor_parte5
+    3300078: Motor_parte6
+    3300080: Motor_parte7
+    3300082: Motor_parte8
+    3300084: Parabrisas_delantero
+    3300086: Parabrisas_puerta
+    3300088: Parabrisas_trasero
+    3300090: Parrila
+    3300092: Parrila1
+    3300094: Parrila2
+    3300096: pCylinder1
+    3300098: pCylinder2
+    3300100: pCylinder3
+    3300102: pCylinder4
+    3300104: pCylinder5
+    3300106: pCylinder6
+    3300108: pCylinder7
+    3300110: Placa_del
+    3300112: Placa_tras
+    3300114: pPlane1
+    3300116: pPlane2
+    3300118: Puerta_izq
+    3300120: Radiador
+    3300122: Techo
+    3300124: Tuberia_motor
+    3300126: Tuberia_motor1
+    3300128: Tuberia_motor2
+    3300130: Tuberia_motor3
+    3300132: Tuberia_motor4
+    3300134: Tuberia_motor5
+    3300136: Ventila_trasera_fibra_carbono
+    3300138: Ventila_trasera_fibra_carbono1
+    3300140: Ventila_trasera_fibra_carbono2
+    4300000: "Motor_correa_peque\xF1a"
+    4300002: Motor_parte8
+    4300004: Motor_parte7
+    4300006: Tuberia_motor1
+    4300008: Motor_parte6
+    4300010: Motor_carcasa
+    4300012: Radiador
+    4300014: Motor_parte5
+    4300016: Motor_parte4
+    4300018: Motor_parte3
+    4300020: Motor_parte2
+    4300022: Motor_parte1
+    4300024: Motor_parte
+    4300026: Motor_correa_mediana
+    4300028: Motor_parte0
+    4300030: Tuberia_motor
+    4300032: Tuberia_motor2
+    4300034: Correa_motor
+    4300036: Engine_estructure
+    4300038: Tuberia_motor3
+    4300040: Tuberia_motor4
+    4300042: Tuberia_motor5
+    4300044: Techo
+    4300046: Lateral_puerta_izq_fibra_carbono
+    4300048: Lateral_puerta_izq
+    4300050: Puerta_izq
+    4300052: Parabrisas_puerta
+    4300054: Facia_delantera
+    4300056: Parrila
+    4300058: Placa_del
+    4300060: Capo
+    4300062: Capo_fibra_carbono
+    4300064: Parabrisas_delantero
+    4300066: Faro_niebla_carcasa
+    4300068: Faro_niebla
+    4300070: Faro_niebla_carcasa
+    4300072: Faro_niebla
+    4300074: Faro_niebla_carcasa
+    4300076: Faro_niebla
+    4300078: Faro_del_izq_cristal
+    4300080: Faro_led
+    4300082: Faro_direccional
+    4300084: Parrila1
+    4300086: Parrila2
+    4300088: Carroceria_trasera
+    4300090: Ventila_trasera_fibra_carbono
+    4300092: Ventila_trasera_fibra_carbono1
+    4300094: Ventila_trasera_fibra_carbono2
+    4300096: Parabrisas_trasero
+    4300098: Faro_tras_cristal
+    4300100: Faro_tras_fibra_carbono
+    4300102: Faro_tras_led
+    4300104: Facia_trasera_fibra_carbono
+    4300106: Escape_izq
+    4300108: Placa_tras
+    4300110: pPlane1
+    4300112: pCylinder1
+    4300114: pCylinder2
+    4300116: pCylinder3
+    4300118: pCylinder4
+    4300120: pCylinder5
+    4300122: pCylinder6
+    4300124: pCylinder7
+    4300126: pPlane2
+    4300128: Llanta_del_izq
+    4300130: Llanta_del_der
+    4300132: Llanta_tras_der
+    4300134: Llanta_tras_izq
+    4300136: Aleron_soporte
+    4300138: Aleron_soportes
+    4300140: Aleron
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Carroceria_del_PBS
+    second: {fileID: 2100014, guid: 04e480abbfda48b4ba0451e0be7ab5a4, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Carroceria_lateral_PBS
+    second: {fileID: 2100006, guid: 04e480abbfda48b4ba0451e0be7ab5a4, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Carroceria_techo_PBS
+    second: {fileID: 2100002, guid: 04e480abbfda48b4ba0451e0be7ab5a4, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Carroceria_trasera_PBS
+    second: {fileID: 2100026, guid: 04e480abbfda48b4ba0451e0be7ab5a4, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Escapes_PBS
+    second: {fileID: 2100032, guid: 04e480abbfda48b4ba0451e0be7ab5a4, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Facia_del_PBS
+    second: {fileID: 2100010, guid: 04e480abbfda48b4ba0451e0be7ab5a4, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Faro_del_cristal_
+    second: {fileID: 2100020, guid: 04e480abbfda48b4ba0451e0be7ab5a4, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Faro_trasero_carcasa
+    second: {fileID: 2100028, guid: 04e480abbfda48b4ba0451e0be7ab5a4, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Faros_direccional_mat
+    second: {fileID: 2100024, guid: 04e480abbfda48b4ba0451e0be7ab5a4, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Faros_led_mat
+    second: {fileID: 2100022, guid: 04e480abbfda48b4ba0451e0be7ab5a4, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Faros_mat
+    second: {fileID: 2100018, guid: 04e480abbfda48b4ba0451e0be7ab5a4, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Faros_plastico_mat
+    second: {fileID: 2100016, guid: 04e480abbfda48b4ba0451e0be7ab5a4, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Faros_traseros_led_PBS
+    second: {fileID: 2100030, guid: 04e480abbfda48b4ba0451e0be7ab5a4, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fibra_carbono_PBS
+    second: {fileID: 2100004, guid: 04e480abbfda48b4ba0451e0be7ab5a4, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Llanta_caucho_PBS
+    second: {fileID: 2100034, guid: 04e480abbfda48b4ba0451e0be7ab5a4, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Llanta_rin_PBS
+    second: {fileID: 2100038, guid: 04e480abbfda48b4ba0451e0be7ab5a4, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Llanta_rin_interior_PBS
+    second: {fileID: 2100036, guid: 04e480abbfda48b4ba0451e0be7ab5a4, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Parabrisas_PBS
+    second: {fileID: 2100008, guid: 04e480abbfda48b4ba0451e0be7ab5a4, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Parrila_PBS
+    second: {fileID: 2100012, guid: 04e480abbfda48b4ba0451e0be7ab5a4, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 50
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

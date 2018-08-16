@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: 742185ed6304ead4f970d0eb73a138b2
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: "Carrocer\xEDa"
+    100004: Defensa
+    100006: FarosTra1
+    100008: FrontCar
+    100010: group1
+    100012: Llanta_Delantera_rgt
+    100014: Llanta_Delantera_rgt1
+    100016: LLanta_trasera_rgt
+    100018: LLanta_trasera_rgt1
+    100020: LLantas
+    100022: Motor
+    100024: pCube8
+    100026: pCube9
+    100028: pCylinder5
+    100030: pCylinder6
+    100032: pCylinder7
+    100034: pCylinder8
+    100036: pDisc1
+    100038: polySurface3
+    100040: pPlane1
+    100042: pPlane4
+    100044: pTorus1
+    100046: Retrovisores
+    100048: Spoiler
+    100050: Trasero
+    400000: //RootNode
+    400002: "Carrocer\xEDa"
+    400004: Defensa
+    400006: FarosTra1
+    400008: FrontCar
+    400010: group1
+    400012: Llanta_Delantera_rgt
+    400014: Llanta_Delantera_rgt1
+    400016: LLanta_trasera_rgt
+    400018: LLanta_trasera_rgt1
+    400020: LLantas
+    400022: Motor
+    400024: pCube8
+    400026: pCube9
+    400028: pCylinder5
+    400030: pCylinder6
+    400032: pCylinder7
+    400034: pCylinder8
+    400036: pDisc1
+    400038: polySurface3
+    400040: pPlane1
+    400042: pPlane4
+    400044: pTorus1
+    400046: Retrovisores
+    400048: Spoiler
+    400050: Trasero
+    2100000: FrenteBase
+    2100002: Parte_Trasera
+    2100004: Aler_on
+    2100006: Motor2
+    2100008: Llantas
+    2100010: Metal1
+    2100012: Ventanas
+    2100014: Luces
+    2100016: RigAuto_Car7_PruebaTextura__Parte_Trasera
+    2300000: "Carrocer\xEDa"
+    2300002: Defensa
+    2300004: FarosTra1
+    2300006: Llanta_Delantera_rgt
+    2300008: Llanta_Delantera_rgt1
+    2300010: LLanta_trasera_rgt
+    2300012: LLanta_trasera_rgt1
+    2300014: pCube8
+    2300016: pCube9
+    2300018: pCylinder5
+    2300020: pCylinder6
+    2300022: pCylinder7
+    2300024: pCylinder8
+    2300026: pDisc1
+    2300028: polySurface3
+    2300030: pPlane1
+    2300032: pPlane4
+    2300034: pTorus1
+    2300036: Retrovisores
+    2300038: Spoiler
+    2300040: Trasero
+    3300000: "Carrocer\xEDa"
+    3300002: Defensa
+    3300004: FarosTra1
+    3300006: Llanta_Delantera_rgt
+    3300008: Llanta_Delantera_rgt1
+    3300010: LLanta_trasera_rgt
+    3300012: LLanta_trasera_rgt1
+    3300014: pCube8
+    3300016: pCube9
+    3300018: pCylinder5
+    3300020: pCylinder6
+    3300022: pCylinder7
+    3300024: pCylinder8
+    3300026: pDisc1
+    3300028: polySurface3
+    3300030: pPlane1
+    3300032: pPlane4
+    3300034: pTorus1
+    3300036: Retrovisores
+    3300038: Spoiler
+    3300040: Trasero
+    4300000: polySurface3
+    4300002: Trasero
+    4300004: Spoiler
+    4300006: pPlane4
+    4300008: pTorus1
+    4300010: pDisc1
+    4300012: pPlane1
+    4300014: Llanta_Delantera_rgt
+    4300016: Llanta_Delantera_rgt1
+    4300018: Defensa
+    4300020: "Carrocer\xEDa"
+    4300022: LLanta_trasera_rgt
+    4300024: LLanta_trasera_rgt1
+    4300026: Retrovisores
+    4300028: pCylinder6
+    4300030: pCylinder7
+    4300032: pCylinder5
+    4300034: pCube8
+    4300036: pCube9
+    4300038: pCylinder8
+    4300040: FarosTra1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
