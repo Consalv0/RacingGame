@@ -40,6 +40,10 @@ public class Wheel : MonoBehaviour {
 	private float m_sideSlip;
 	private float m_usedSideFriction;
 
+    public float debugSlipForceX = 0;
+    public float debugSlipForceY = 0;
+    public float debugSlipForceZ = 0;
+
 	private void Start () {
 		m_wheelCircumference = radius * Mathf.PI * 2;
 	}
@@ -92,10 +96,16 @@ public class Wheel : MonoBehaviour {
 			Vector3 sideForce = transform.TransformDirection(new Vector3(-sidewaysDifference, 0, 0)) * m_usedSideFriction;
 			m_sideSlip = Mathf.Lerp(sideForce.magnitude, sidewaysDifference, sidewaysStiffnessFactor) / chassisRigidbody.mass / 10;
 
+            debugSlipForceX = sideForce.x;
+            debugSlipForceY = sideForce.y;
+            debugSlipForceZ = sideForce.z;
+
 			Debug.DrawRay (transform.position, forwardForce, Color.yellow);
 
 			// this thing is totally made up. It's as if god's hand nudges the car back on course whenever it is moving sideways, 
 			// by a factor of sidewaysDamp
+
+            //puede calcularse porque en algun momento la velocidad del derrape (sobre el vecotr myright va a ser 0 pues la aceleracion va a empujarlo hacia el frente del auto
 			t = transform.InverseTransformDirection(m_localVelocity);
 			t.z = 0;
 			t.y = 0;

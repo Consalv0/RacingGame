@@ -5,14 +5,8 @@ using UnityEngine;
 
 public class Play : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-        Debug.Log("PlayGame");
-        SceneManager.LoadScene("Test_Car_Physics");
-	}
+	public void LoadByIndex(int sceneIndex)
+    {
+        SceneManager.LoadScene(sceneIndex);
+    }
 }
