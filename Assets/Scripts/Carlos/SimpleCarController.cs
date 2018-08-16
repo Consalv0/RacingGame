@@ -32,6 +32,8 @@ public class SimpleCarController : MonoBehaviour {
   public float plusSteerAngle=10;
   public float boost=50;
 
+  public float maxVelocity;
+  public float friction = -100;
 
   public float clippingTime;
   public float BoostTime;
@@ -114,11 +116,13 @@ public class SimpleCarController : MonoBehaviour {
    
      if(verticalInput==1)
     {
+      Debug.Log(motorForce);
       front_leftW.motorTorque = verticalInput * motorForce;
       front_rightW.motorTorque = verticalInput * motorForce;
     }
      else if(breakInput==1)
     {
+      Debug.Log(motorForce);
       front_leftW.motorTorque = breakInput * negative_motorForce;
       front_rightW.motorTorque = breakInput * negative_motorForce;
     }
@@ -161,6 +165,25 @@ public class SimpleCarController : MonoBehaviour {
       DoneBoost = true;
     }
   }
+
+  public void CheckVelocity()
+  {
+    float velocityp = (70 * maxVelocity) / 100;
+    //if(StartBTime)
+    //{
+    //  Debug.Log("Boost");
+    //}
+    if (rb.velocity.magnitude > maxVelocity&& !StartBTime)
+    {
+      motorForce = friction;
+   
+    }
+    else if(rb.velocity.magnitude>=velocityp&&rb.velocity.magnitude< maxVelocity && !StartBTime)
+    {
+      motorForce = 100;
+     
+    }
+  }
   private void Update()
   {
     
@@ -182,10 +205,13 @@ public class SimpleCarController : MonoBehaviour {
   private void FixedUpdate()
   {
     GetInput();
+    
     Clipping();
     Boost();
     Steer();
+    CheckVelocity();
     Acelerate();
+  
     UpdateWheelPoses();
   }
 

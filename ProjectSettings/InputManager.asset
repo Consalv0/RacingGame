@@ -566,21 +566,21 @@ InputManager:
     axis: 27
     joyNum: 2
   - serializedVersion: 3
-    m_Name: Boost1
+    m_Name: Boost
     descriptiveName: 
     descriptiveNegativeName: 
-    negativeButton: left
-    positiveButton: right
-    altNegativeButton: a
-    altPositiveButton: d
-    gravity: 3
+    negativeButton: 
+    positiveButton: joystick button 1
+    altNegativeButton: 
+    altPositiveButton: 
+    gravity: 1000
     dead: 0.001
-    sensitivity: 3
+    sensitivity: 1000
     snap: 0
     invert: 0
     type: 0
-    axis: 0
-    joyNum: 2
+    axis: 9
+    joyNum: 1
   - serializedVersion: 3
     m_Name: Boost2
     descriptiveName: 
@@ -612,4 +612,20 @@ InputManager:
     invert: 0
     type: 2
     axis: 8
+    joyNum: 1
+  - serializedVersion: 3
+    m_Name: Derrape
+    descriptiveName: 
+    descriptiveNegativeName: 
+    negativeButton: 
+    positiveButton: joystick button 0
+    altNegativeButton: 
+    altPositiveButton: 
+    gravity: 1000
+    dead: 0.001
+    sensitivity: 1000
+    snap: 0
+    invert: 0
+    type: 0
+    axis: 15
     joyNum: 1
