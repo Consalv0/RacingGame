@@ -4,17 +4,23 @@ using UnityEngine;
 
 public class CarSelector : MonoBehaviour {
 	public CarStageBase[] carStageBases;
-	
+	public Transform[] playerSpawns;
+	public int player;
+	public float minSelectionTime = 1;
+
 	private int selectedBase;
 	private float rotationAngle;
+	private float lastSelectionTime;
+
+	private bool isActive = true;
 
 	// Use this for initialization
 	void Start() {
 		rotationAngle = 360 / carStageBases.Length;
 		float angle = 0;
 		foreach (CarStageBase stage in carStageBases) {
-			stage.targetAngle = angle + 120 + rotationAngle;
-			angle += rotationAngle;
+			stage.targetAngle = angle + rotationAngle * 3 + rotationAngle;
+			angle -= rotationAngle;
 		}
 
 		selectedBase = 0;
@@ -22,22 +28,33 @@ public class CarSelector : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update() {
-		if (Input.GetKeyDown(KeyCode.D)) {
-			rotateAndSelect(true);
-		} else if (Input.GetKeyDown(KeyCode.A)) {
-			rotateAndSelect(false);
+		float horizontalAxis = Input.GetAxisRaw("Horizontal");
+		if (isActive && (Time.time - lastSelectionTime) > minSelectionTime && !horizontalAxis.Equals(0)) {
+			if (horizontalAxis < -0.8F) {
+				rotateAndSelect(true);
+			} else if (horizontalAxis > 0.8F) {
+				rotateAndSelect(false);
+			}
 		}
 
-		if (Input.GetButtonDown("Fire1")) {
+		if (isActive && Input.GetButtonDown("Fire1")) {
 			Camera.main.GetComponent<CameraFollower>().target =
-				GameObject.Instantiate(CarSelected(), new Vector3(0, 100, 0), Quaternion.identity).transform;
-			gameObject.SetActive(false);
+				GameObject.Instantiate(CarSelected(), playerSpawns[player].position, playerSpawns[player].rotation).transform;
+			isActive = false;
+		}
+
+		if (!isActive && Input.GetButtonDown("Start")) {
+			Destroy(Camera.main.GetComponent<CameraFollower>().target.gameObject);
+			Camera.main.GetComponent<CameraFollower>().target = transform;
+			isActive = true;
 		}
 	}
 
 	void rotateAndSelect(bool forward) {
+		lastSelectionTime = Time.time;
+
 		foreach (CarStageBase stage in carStageBases) {
-			stage.initialAngle = stage.targetAngle;
+			stage.initialAngle = Mathf.LerpAngle(stage.initialAngle, stage.targetAngle, stage.traslationCurve.Evaluate(stage.progress));
 			stage.progress = 0;
 			stage.isDone = false;
 			stage.targetAngle += forward ? rotationAngle : -rotationAngle;

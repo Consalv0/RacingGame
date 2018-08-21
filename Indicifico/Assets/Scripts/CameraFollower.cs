@@ -7,6 +7,7 @@ public class CameraFollower : MonoBehaviour {
 	public float damping = 1;
 	public float elasticity = 2;
 	public Vector3 naturalOffset;
+	public Vector3 worldOffset;
 	public Transform target;
 
 	private Vector3 m_velocity;
@@ -23,8 +24,8 @@ public class CameraFollower : MonoBehaviour {
 
 	void FixedUpdate () {
 		if (target) {
-			Vector3 direction = (transform.position - target.position);
-			m_velocity += -elasticity * (direction + target.rotation * naturalOffset) - damping * m_velocity;
+			Vector3 direction = (transform.position - target.position) + target.rotation * naturalOffset + worldOffset;
+			m_velocity += -elasticity * direction - damping * m_velocity;
 			transform.position += m_velocity * Time.fixedDeltaTime;
 
 			transform.LookAt (target.position);
