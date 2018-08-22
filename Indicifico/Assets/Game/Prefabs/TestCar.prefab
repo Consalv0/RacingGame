@@ -1036,10 +1036,10 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   compressionFrictionFactor: 0.5
-  tireRadius: 0.284
-  rimRadius: 0.17
-  tireWidth: 0.17
-  rimWidth: 0.16
+  tireRadius: 0.3310384
+  rimRadius: 0.1655192
+  tireWidth: 0.1626571
+  rimWidth: 0.08132855
   tirePressure: 1
   deformAmount: 0.2
   applyForceAtGroundContact: 0
@@ -1228,10 +1228,10 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   compressionFrictionFactor: 0.5
-  tireRadius: 0.284
-  rimRadius: 0.17
-  tireWidth: 0.17
-  rimWidth: 0.16
+  tireRadius: 0.3310384
+  rimRadius: 0.1655192
+  tireWidth: 0.1626571
+  rimWidth: 0.08132855
   tirePressure: 1
   deformAmount: 0.2
   applyForceAtGroundContact: 0
@@ -1516,8 +1516,8 @@ MonoBehaviour:
   automatic: 1
   skidSteerDrive: 0
   outputDrives:
-  - {fileID: 11495364, guid: c3de640592c8de64c8ff057f91f3a02e, type: 2}
-  - {fileID: 11403768, guid: c3de640592c8de64c8ff057f91f3a02e, type: 2}
+  - {fileID: 114483690530007450}
+  - {fileID: 114974471421364270}
   driveDividePower: 3
   gears:
   - ratio: -3.5
@@ -1531,27 +1531,27 @@ MonoBehaviour:
     maxRPM: 2753.8845
   - ratio: 2.5
     minRPM: 2478.496
-    maxRPM: 4000
+    maxRPM: 3304.6614
   - ratio: 1.7
-    minRPM: 3700
-    maxRPM: 6000
+    minRPM: 2527.094
+    maxRPM: 4859.796
   - ratio: 1.3
-    minRPM: 5500
-    maxRPM: 8500
+    minRPM: 4112.135
+    maxRPM: 6355.118
   - ratio: 1.1
-    minRPM: 8000
-    maxRPM: 11000
+    minRPM: 5777.38
+    maxRPM: 7510.5938
   - ratio: 0.9
-    minRPM: 10500
-    maxRPM: 13500
+    minRPM: 6676.0835
+    maxRPM: 9179.615
   - ratio: 0.8
-    minRPM: 13000
-    maxRPM: 15000
+    minRPM: 8605.89
+    maxRPM: 10327.066
   startGear: 2
   skipNeutral: 1
   autoCalculateRpmRanges: 0
-  shiftDelay: 5
-  shiftThreshold: 2
+  shiftDelay: 0.5
+  shiftThreshold: 0.2
 --- !u!114 &114754861749840892
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1804,10 +1804,10 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   compressionFrictionFactor: 0.5
-  tireRadius: 0.284
-  rimRadius: 0.17
-  tireWidth: 0.17
-  rimWidth: 0.16
+  tireRadius: 0.3310384
+  rimRadius: 0.1655192
+  tireWidth: 0.1626571
+  rimWidth: 0.08132855
   tirePressure: 1
   deformAmount: 0.2
   applyForceAtGroundContact: 0
@@ -1985,10 +1985,10 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   compressionFrictionFactor: 0.5
-  tireRadius: 0.284
-  rimRadius: 0.17
-  tireWidth: 0.17
-  rimWidth: 0.16
+  tireRadius: 0.3310384
+  rimRadius: 0.1655192
+  tireWidth: 0.1626571
+  rimWidth: 0.08132855
   tirePressure: 1
   deformAmount: 0.2
   applyForceAtGroundContact: 0
@@ -2118,7 +2118,7 @@ MonoBehaviour:
   inertia: 0.8
   canReverse: 0
   outputDrives:
-  - {fileID: 11435236, guid: c3de640592c8de64c8ff057f91f3a02e, type: 2}
+  - {fileID: 114351162230496258}
   driveDividePower: 1
   transmission: {fileID: 114636952106674466}
   pitchIncreaseBetweenShift: 0
@@ -2133,7 +2133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d07c3ba93f8c45243a96fbd399ee977f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  steerRate: 0.1
+  steerRate: 6
   steerCurve:
     serializedVersion: 2
     m_Curve:

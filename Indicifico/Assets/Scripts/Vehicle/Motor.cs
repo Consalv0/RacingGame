@@ -90,7 +90,7 @@ namespace RVP
             boost = Mathf.Clamp(boosting ? boost - boostBurnRate * Time.timeScale * 0.05f * Time.fixedDeltaTime : boost, 0, maxBoost);
             boostPrev = boosting;
 
-            if (canBoost && ignition && health > 0 && !vp.crashing && boost > 0 && (vp.accelInput > 0 || vp.localVelocity.z > 1))
+            if (canBoost && ignition && health > 0 && boost > 0 && (vp.accelInput > 0 || vp.localVelocity.z > 1))
             {
                 if (((boostReleased && !boosting) || boosting) && vp.boostButton)
                 {

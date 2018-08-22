@@ -106,24 +106,10 @@ namespace RVP {
 		[System.NonSerialized]
 		public VehicleParent inputInherit;//Vehicle which to inherit input from
 
-		[System.NonSerialized]
-		public bool crashing;
-
 		[Header("Crashing")]
-
-		public bool canCrash = true;
-		public AudioSource crashSnd;
-		public AudioClip[] crashClips;
-		[System.NonSerialized]
-		public bool playCrashSounds = true;
 		public ParticleSystem sparks;
 		[System.NonSerialized]
 		public bool playCrashSparks = true;
-
-		[Header("Camera")]
-
-		public float cameraDistanceChange;
-		public float cameraHeightChange;
 
 		void Start() {
 			tr = transform;
@@ -195,10 +181,6 @@ namespace RVP {
 			}
 
 			GetGroundedWheels();
-
-			if (groundedWheels > 0) {
-				crashing = false;
-			}
 
 			localVelocity = tr.InverseTransformDirection(rb.velocity - wheelContactsVelocity);
 			localAngularVel = tr.InverseTransformDirection(rb.angularVelocity);
@@ -345,37 +327,11 @@ namespace RVP {
 							}
 
 							if (checkTow) {
-								crashing = canCrash;
-
-								if (crashSnd && crashClips.Length > 0 && playCrashSounds) {
-									crashSnd.PlayOneShot(crashClips[Random.Range(0, crashClips.Length)], Mathf.Clamp01(col.relativeVelocity.magnitude * 0.1f));
-								}
-
 								if (sparks && playCrashSparks) {
 									sparks.transform.position = curCol.point;
 									sparks.transform.rotation = Quaternion.LookRotation(col.relativeVelocity.normalized, curCol.normal);
 									sparks.Play();
 								}
-							}
-						}
-					}
-				}
-			}
-		}
-
-		void OnCollisionStay(Collision col) {
-			if (col.contacts.Length > 0 && groundedWheels == 0) {
-				foreach (ContactPoint curCol in col.contacts) {
-					if (!curCol.thisCollider.CompareTag("Underside") && curCol.thisCollider.gameObject.layer != gameObject.layer) {
-						if (col.relativeVelocity.sqrMagnitude < 5) {
-							bool checkTow = true;
-
-							if (newTow) {
-								checkTow = !curCol.otherCollider.transform.IsChildOf(newTow.transform);
-							}
-
-							if (checkTow) {
-								crashing = canCrash;
 							}
 						}
 					}

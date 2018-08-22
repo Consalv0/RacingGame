@@ -14,7 +14,6 @@ namespace RVP
         Rigidbody rb;
         VehicleParent vp;
 
-        public bool disableDuringCrash;
         public Vector3 flipPower;
 
         [Tooltip("Continue spinning if input is stopped")]
@@ -45,7 +44,7 @@ namespace RVP
 
         void FixedUpdate()
         {
-            if (vp.groundedWheels == 0 && (!vp.crashing || (vp.crashing && !disableDuringCrash)))
+            if (vp.groundedWheels == 0)
             {
                 velDir = Quaternion.LookRotation(Vector3.up, rb.velocity);
 
