@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Camera : MonoBehaviour {
+public class Camera_follow : MonoBehaviour
+{
+
   public Transform follow;
   public Vector3 offset;
   public float followSpeed = 10;

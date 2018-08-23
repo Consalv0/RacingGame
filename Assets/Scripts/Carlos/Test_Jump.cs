@@ -15,12 +15,17 @@ public class Test_Jump : MonoBehaviour {
     force *= 10000;
     rb = GetComponent<Rigidbody>();
 	}
-	
-	// Update is called once per frame
-	void Update () {
-    Debug.Log(timep);
+  private void Update()
+  {
+    if (Input.GetKeyDown(KeyCode.D))
+      Debug.Log(Input.GetAxis("jump" + player));
+  }
+
+  // Update is called once per frame
+  void FixedUpdate () {
+    //Debug.Log(timep);
     timeLeft -= Time.deltaTime;
-    if (Timer(timeLeft)&& Input.GetAxis("jump"+player)>0)
+    if (Timer(timeLeft)&& Input.GetAxis("jump"+player)==1)
     {
       Debug.Log("activate");
       rb.AddForce(new Vector3(0,force* Input.GetAxis("jump"+player), 0), ForceMode.Impulse);

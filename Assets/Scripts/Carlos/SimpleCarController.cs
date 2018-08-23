@@ -45,7 +45,7 @@ public class SimpleCarController : MonoBehaviour {
   private bool DoneCliping = false;
   private bool DoneBoost = false;
 
-
+  public string player;
   public Rigidbody rb;
 
   public void Start()
@@ -61,13 +61,13 @@ public class SimpleCarController : MonoBehaviour {
   }
   public void GetInput()
   {
-    horizontalInput = Input.GetAxis("Horizontal");
-    verticalInput = Input.GetAxis("Aceleration");
-    breakInput = Input.GetAxis("Break");
+    horizontalInput = Input.GetAxis("Turn"+player);
+    verticalInput = Input.GetAxis("Aceleration"+player);
+    breakInput = Input.GetAxis("Break"+player);
   }
   public void Clipping()
   {
-    if (Input.GetAxis("Derrape") == 1)
+    if (Input.GetAxis("Derrape"+player) == 1)
     {
       maxSteerAngle = SteerAngleClipping;
       StartCTime = true;
@@ -116,13 +116,13 @@ public class SimpleCarController : MonoBehaviour {
    
      if(verticalInput==1)
     {
-      Debug.Log(motorForce);
+     
       front_leftW.motorTorque = verticalInput * motorForce;
       front_rightW.motorTorque = verticalInput * motorForce;
     }
      else if(breakInput==1)
     {
-      Debug.Log(motorForce);
+     
       front_leftW.motorTorque = breakInput * negative_motorForce;
       front_rightW.motorTorque = breakInput * negative_motorForce;
     }
@@ -198,8 +198,7 @@ public class SimpleCarController : MonoBehaviour {
     BoostTimer();
     AllDone();
 
-    if (Input.GetKeyDown(KeyCode.D))
-      Debug.Log(rb.velocity.magnitude);
+  
   }
 
   private void FixedUpdate()
