@@ -1,0 +1,2132 @@
+fileFormatVersion: 2
+guid: 8f21c9bbf04998d49a835a46d3aa5f31
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Arbol_completo
+    100002: Arbol_completo1
+    100004: Arbol_completo10
+    100006: Arbol_completo11
+    100008: Arbol_completo12
+    100010: Arbol_completo13
+    100012: Arbol_completo14
+    100014: Arbol_completo15
+    100016: Arbol_completo16
+    100018: Arbol_completo17
+    100020: Arbol_completo18
+    100022: Arbol_completo19
+    100024: Arbol_completo2
+    100026: Arbol_completo20
+    100028: Arbol_completo21
+    100030: Arbol_completo22
+    100032: Arbol_completo23
+    100034: Arbol_completo24
+    100036: Arbol_completo25
+    100038: Arbol_completo26
+    100040: Arbol_completo27
+    100042: Arbol_completo28
+    100044: Arbol_completo29
+    100046: Arbol_completo30
+    100048: Arbol_completo31
+    100050: Arbol_completo33
+    100052: Arbol_completo34
+    100054: Arbol_completo35
+    100056: Arbol_completo36
+    100058: Arbol_completo4
+    100060: Arbol_completo5
+    100062: Arbol_completo7
+    100064: Arbol_completo9
+    100066: Arbol_follaje
+    100068: Arbol_follaje 1
+    100070: Arbol_follaje 10
+    100072: Arbol_follaje 11
+    100074: Arbol_follaje 12
+    100076: Arbol_follaje 13
+    100078: Arbol_follaje 14
+    100080: Arbol_follaje 15
+    100082: Arbol_follaje 16
+    100084: Arbol_follaje 17
+    100086: Arbol_follaje 18
+    100088: Arbol_follaje 19
+    100090: Arbol_follaje 2
+    100092: Arbol_follaje 20
+    100094: Arbol_follaje 21
+    100096: Arbol_follaje 22
+    100098: Arbol_follaje 23
+    100100: Arbol_follaje 24
+    100102: Arbol_follaje 25
+    100104: Arbol_follaje 26
+    100106: Arbol_follaje 27
+    100108: Arbol_follaje 28
+    100110: Arbol_follaje 29
+    100112: Arbol_follaje 3
+    100114: Arbol_follaje 30
+    100116: Arbol_follaje 31
+    100118: Arbol_follaje 32
+    100120: Arbol_follaje 33
+    100122: Arbol_follaje 4
+    100124: Arbol_follaje 5
+    100126: Arbol_follaje 6
+    100128: Arbol_follaje 7
+    100130: Arbol_follaje 8
+    100132: Arbol_follaje 9
+    100134: Arbol_follaje10
+    100136: Arbol_follaje11
+    100138: Arbol_follaje12
+    100140: Arbol_follaje13
+    100142: Arbol_follaje9
+    100144: Arbol_follaje9 1
+    100146: Arbol_follaje9 2
+    100148: Arbol_follaje9 3
+    100150: Arbol_tronco
+    100152: Arbol_tronco 1
+    100154: Arbol_tronco 10
+    100156: Arbol_tronco 11
+    100158: Arbol_tronco 12
+    100160: Arbol_tronco 13
+    100162: Arbol_tronco 14
+    100164: Arbol_tronco 15
+    100166: Arbol_tronco 16
+    100168: Arbol_tronco 17
+    100170: Arbol_tronco 18
+    100172: Arbol_tronco 19
+    100174: Arbol_tronco 2
+    100176: Arbol_tronco 20
+    100178: Arbol_tronco 21
+    100180: Arbol_tronco 22
+    100182: Arbol_tronco 23
+    100184: Arbol_tronco 24
+    100186: Arbol_tronco 25
+    100188: Arbol_tronco 26
+    100190: Arbol_tronco 27
+    100192: Arbol_tronco 28
+    100194: Arbol_tronco 29
+    100196: Arbol_tronco 3
+    100198: Arbol_tronco 30
+    100200: Arbol_tronco 31
+    100202: Arbol_tronco 32
+    100204: Arbol_tronco 33
+    100206: Arbol_tronco 4
+    100208: Arbol_tronco 5
+    100210: Arbol_tronco 6
+    100212: Arbol_tronco 7
+    100214: Arbol_tronco 8
+    100216: Arbol_tronco 9
+    100218: Arbol_tronco1
+    100220: Arbol_tronco2
+    100222: Arbol_tronco3
+    100224: Arbol_tronco4
+    100226: Arboles
+    100228: Arboles1
+    100230: Auto_manejo
+    100232: Auto_todoterreno
+    100234: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Aleron
+    100236: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Aleron_soporte
+    100238: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Aleron_soportes
+    100240: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Capo
+    100242: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Capo_fibra_carbono
+    100244: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Carroceria_del
+    100246: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Carroceria_izq
+    100248: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Carroceria_tras
+    100250: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Carroceria_trasera
+    100252: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Correa_motor
+    100254: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Engine_estructure
+    100256: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Escape_izq
+    100258: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Estructura_debajo
+    100260: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Facia_delantera
+    100262: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Facia_trasera_fibra_carbono
+    100264: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_direccional
+    100266: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_led
+    100268: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla
+    100270: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla
+      1
+    100272: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla
+      2
+    100274: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla_carcasa
+    100276: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla_carcasa
+      1
+    100278: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla_carcasa
+      2
+    100280: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla_comp
+    100282: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla_comp1
+    100284: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla_comp2
+    100286: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_tras_cristal
+    100288: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_tras_fibra_carbono
+    100290: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_tras_led
+    100292: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faros_del
+    100294: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Lateral_puerta_izq
+    100296: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Lateral_puerta_izq_fibra_carbono
+    100298: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Llanta_del_der
+    100300: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Llanta_del_izq
+    100302: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Llanta_tras_der
+    100304: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Llanta_tras_izq
+    100306: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor
+    100308: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_carcasa
+    100310: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_correa_mediana
+    100312: "Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_correa_peque\xF1a"
+    100314: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte
+    100316: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte0
+    100318: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte1
+    100320: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte2
+    100322: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte3
+    100324: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte4
+    100326: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte5
+    100328: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte6
+    100330: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte7
+    100332: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte8
+    100334: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Parabrisas_delantero
+    100336: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Parabrisas_puerta
+    100338: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Parabrisas_trasero
+    100340: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Parrila
+    100342: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Parrila1
+    100344: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Parrila2
+    100346: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder1
+    100348: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder2
+    100350: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder3
+    100352: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder4
+    100354: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder5
+    100356: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder6
+    100358: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder7
+    100360: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Placa_del
+    100362: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Placa_tras
+    100364: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pPlane1
+    100366: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pPlane2
+    100368: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Puerta_izq
+    100370: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Radiador
+    100372: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Techo
+    100374: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Tuberia_motor
+    100376: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Tuberia_motor1
+    100378: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Tuberia_motor2
+    100380: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Tuberia_motor3
+    100382: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Tuberia_motor4
+    100384: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Tuberia_motor5
+    100386: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Ventila_trasera_fibra_carbono
+    100388: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Ventila_trasera_fibra_carbono1
+    100390: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Ventila_trasera_fibra_carbono2
+    100392: "Cars_OBJ_s:Carrocer\xEDa"
+    100394: Cars_OBJ_s:Chasis_BACK
+    100396: Cars_OBJ_s:Chasis_FRONT
+    100398: Cars_OBJ_s:DEFENSA
+    100400: Cars_OBJ_s:Defensa
+    100402: Cars_OBJ_s:ESPEJOS
+    100404: Cars_OBJ_s:Foco_DOWN_LFT
+    100406: Cars_OBJ_s:Foco_DOWN_RGT
+    100408: Cars_OBJ_s:Foco_UP_LFT
+    100410: Cars_OBJ_s:Foco_UP_RGT
+    100412: Cars_OBJ_s:Focos
+    100414: Cars_OBJ_s:FrontCar
+    100416: Cars_OBJ_s:LFT
+    100418: Cars_OBJ_s:Llanta_Back_LFT
+    100420: Cars_OBJ_s:Llanta_Back_RGT
+    100422: Cars_OBJ_s:Llanta_Delantera_rgt
+    100424: Cars_OBJ_s:Llanta_Delantera_rgt1
+    100426: Cars_OBJ_s:Llanta_Front_LFT
+    100428: Cars_OBJ_s:Llanta_Front_RGT
+    100430: Cars_OBJ_s:LLanta_trasera_rgt
+    100432: Cars_OBJ_s:LLanta_trasera_rgt1
+    100434: Cars_OBJ_s:LLANTAS
+    100436: Cars_OBJ_s:LLantas
+    100438: Cars_OBJ_s:MOTOR
+    100440: Cars_OBJ_s:Motor
+    100442: Cars_OBJ_s:PARRILLA
+    100444: Cars_OBJ_s:pDisc1
+    100446: Cars_OBJ_s:PLACA
+    100448: Cars_OBJ_s:polySurface3
+    100450: Cars_OBJ_s:polySurface40
+    100452: Cars_OBJ_s:polySurface48
+    100454: Cars_OBJ_s:polySurface49
+    100456: Cars_OBJ_s:polySurface51
+    100458: Cars_OBJ_s:polySurface58
+    100460: Cars_OBJ_s:polySurface66
+    100462: Cars_OBJ_s:polySurface67
+    100464: Cars_OBJ_s:polySurface70
+    100466: Cars_OBJ_s:pPlane1
+    100468: Cars_OBJ_s:pPlane4
+    100470: Cars_OBJ_s:PROPULSOR
+    100472: Cars_OBJ_s:pTorus1
+    100474: Cars_OBJ_s:Retrovisores
+    100476: Cars_OBJ_s:RGT
+    100478: Cars_OBJ_s:RIN_BACK_LFT
+    100480: Cars_OBJ_s:RIN_BACK_RGT
+    100482: Cars_OBJ_s:RIN_FRONT_LFT
+    100484: Cars_OBJ_s:RIN_FRONT_RGT
+    100486: Cars_OBJ_s:SOPORTE_LFT
+    100488: Cars_OBJ_s:SOPORTE_RGT
+    100490: Cars_OBJ_s:SPOILER
+    100492: Cars_OBJ_s:Spoiler
+    100494: Cars_OBJ_s:SUSPENSION_BACK
+    100496: Cars_OBJ_s:Suspension_FRONT
+    100498: Cars_OBJ_s:TANQUE_SALTO
+    100500: Cars_OBJ_s:Trasero
+    100502: City_
+    100504: CTrack
+    100506: Edificio10
+    100508: Edificio3
+    100510: Edificio7
+    100512: Edificio9
+    100514: group5
+    100516: group6
+    100518: group7
+    100520: group9
+    100522: //RootNode
+    100524: Isle
+    100526: Islitas
+    100528: MTrack
+    100530: Palmera_coco
+    100532: Palmera_coco 1
+    100534: Palmera_coco 2
+    100536: Palmera_coco 3
+    100538: Palmera_coco 4
+    100540: Palmera_coco 5
+    100542: Palmera_coco 6
+    100544: Palmera_coco 7
+    100546: Palmera_coco1
+    100548: Palmera_coco1 1
+    100550: Palmera_coco1 2
+    100552: Palmera_coco1 3
+    100554: Palmera_coco1 4
+    100556: Palmera_coco1 5
+    100558: Palmera_coco1 6
+    100560: Palmera_coco1 7
+    100562: Palmera_coco2
+    100564: Palmera_coco2 1
+    100566: Palmera_coco2 2
+    100568: Palmera_coco2 3
+    100570: Palmera_coco2 4
+    100572: Palmera_coco2 5
+    100574: Palmera_coco2 6
+    100576: Palmera_coco2 7
+    100578: Palmera_completa
+    100580: Palmera_completa1
+    100582: Palmera_completa2
+    100584: Palmera_completa3
+    100586: Palmera_completa4
+    100588: Palmera_completa5
+    100590: Palmera_completa6
+    100592: Palmera_completa7
+    100594: Palmera_hoja
+    100596: Palmera_hoja 1
+    100598: Palmera_hoja 2
+    100600: Palmera_hoja 3
+    100602: Palmera_hoja 4
+    100604: Palmera_hoja 5
+    100606: Palmera_hoja 6
+    100608: Palmera_hoja 7
+    100610: Palmera_hoja1
+    100612: Palmera_hoja1 1
+    100614: Palmera_hoja1 2
+    100616: Palmera_hoja1 3
+    100618: Palmera_hoja1 4
+    100620: Palmera_hoja1 5
+    100622: Palmera_hoja1 6
+    100624: Palmera_hoja1 7
+    100626: Palmera_hoja2
+    100628: Palmera_hoja2 1
+    100630: Palmera_hoja2 2
+    100632: Palmera_hoja2 3
+    100634: Palmera_hoja2 4
+    100636: Palmera_hoja2 5
+    100638: Palmera_hoja2 6
+    100640: Palmera_hoja2 7
+    100642: Palmera_hoja3
+    100644: Palmera_hoja3 1
+    100646: Palmera_hoja3 2
+    100648: Palmera_hoja3 3
+    100650: Palmera_hoja3 4
+    100652: Palmera_hoja3 5
+    100654: Palmera_hoja3 6
+    100656: Palmera_hoja3 7
+    100658: Palmera_hoja4
+    100660: Palmera_hoja4 1
+    100662: Palmera_hoja4 2
+    100664: Palmera_hoja4 3
+    100666: Palmera_hoja4 4
+    100668: Palmera_hoja4 5
+    100670: Palmera_hoja4 6
+    100672: Palmera_hoja4 7
+    100674: Palmera_hoja5
+    100676: Palmera_hoja5 1
+    100678: Palmera_hoja5 2
+    100680: Palmera_hoja5 3
+    100682: Palmera_hoja5 4
+    100684: Palmera_hoja5 5
+    100686: Palmera_hoja5 6
+    100688: Palmera_hoja5 7
+    100690: Palmera_tronco
+    100692: Palmera_tronco 1
+    100694: Palmera_tronco 2
+    100696: Palmera_tronco 3
+    100698: Palmera_tronco 4
+    100700: Palmera_tronco 5
+    100702: Palmera_tronco 6
+    100704: Palmera_tronco 7
+    100706: Palmeras
+    100708: pCube3
+    100710: pCube4
+    100712: pCylinder1
+    100714: pCylinder10
+    100716: pCylinder11
+    100718: pCylinder12
+    100720: pCylinder13
+    100722: pCylinder14
+    100724: pCylinder15
+    100726: pCylinder16
+    100728: pCylinder17
+    100730: pCylinder18
+    100732: pCylinder19
+    100734: pCylinder2
+    100736: pCylinder20
+    100738: pCylinder3
+    100740: pCylinder4
+    100742: pCylinder5
+    100744: pCylinder6
+    100746: pCylinder7
+    100748: pCylinder8
+    100750: pCylinder9
+    100752: Pino_completo
+    100754: Pino_completo1
+    100756: Pino_completo10
+    100758: Pino_completo12
+    100760: Pino_completo2
+    100762: Pino_completo3
+    100764: Pino_completo4
+    100766: Pino_completo5
+    100768: Pino_completo6
+    100770: Pino_completo7
+    100772: Pino_completo8
+    100774: Pino_completo9
+    100776: Pino_follaje
+    100778: Pino_follaje 1
+    100780: Pino_follaje 10
+    100782: Pino_follaje 11
+    100784: Pino_follaje 2
+    100786: Pino_follaje 3
+    100788: Pino_follaje 4
+    100790: Pino_follaje 5
+    100792: Pino_follaje 6
+    100794: Pino_follaje 7
+    100796: Pino_follaje 8
+    100798: Pino_follaje 9
+    100800: Pino_tronco
+    100802: Pino_tronco 1
+    100804: Pino_tronco 10
+    100806: Pino_tronco 11
+    100808: Pino_tronco 2
+    100810: Pino_tronco 3
+    100812: Pino_tronco 4
+    100814: Pino_tronco 5
+    100816: Pino_tronco 6
+    100818: Pino_tronco 7
+    100820: Pino_tronco 8
+    100822: Pino_tronco 9
+    100824: Pinos
+    100826: pPlane1
+    100828: pPlane2
+    100830: pPlane5
+    100832: pPlane6
+    100834: pPlane7
+    100836: pPlane8
+    100838: pSphere10
+    100840: pSphere12
+    100842: pSphere16
+    100844: pSphere17
+    100846: pSphere18
+    100848: pSphere19
+    100850: pSphere20
+    100852: pSphere23
+    100854: pSphere25
+    100856: pSphere28
+    100858: pTorus5
+    100860: pTorus6
+    100862: pTorus7
+    100864: pTorus8
+    100866: pTorus9
+    100868: RatRod
+    100870: Track2_section_001
+    100872: Track2_section_003
+    100874: Track2_section_02
+    100876: transform49
+    100878: transform50
+    100880: VTrack
+    400000: Arbol_completo
+    400002: Arbol_completo1
+    400004: Arbol_completo10
+    400006: Arbol_completo11
+    400008: Arbol_completo12
+    400010: Arbol_completo13
+    400012: Arbol_completo14
+    400014: Arbol_completo15
+    400016: Arbol_completo16
+    400018: Arbol_completo17
+    400020: Arbol_completo18
+    400022: Arbol_completo19
+    400024: Arbol_completo2
+    400026: Arbol_completo20
+    400028: Arbol_completo21
+    400030: Arbol_completo22
+    400032: Arbol_completo23
+    400034: Arbol_completo24
+    400036: Arbol_completo25
+    400038: Arbol_completo26
+    400040: Arbol_completo27
+    400042: Arbol_completo28
+    400044: Arbol_completo29
+    400046: Arbol_completo30
+    400048: Arbol_completo31
+    400050: Arbol_completo33
+    400052: Arbol_completo34
+    400054: Arbol_completo35
+    400056: Arbol_completo36
+    400058: Arbol_completo4
+    400060: Arbol_completo5
+    400062: Arbol_completo7
+    400064: Arbol_completo9
+    400066: Arbol_follaje
+    400068: Arbol_follaje 1
+    400070: Arbol_follaje 10
+    400072: Arbol_follaje 11
+    400074: Arbol_follaje 12
+    400076: Arbol_follaje 13
+    400078: Arbol_follaje 14
+    400080: Arbol_follaje 15
+    400082: Arbol_follaje 16
+    400084: Arbol_follaje 17
+    400086: Arbol_follaje 18
+    400088: Arbol_follaje 19
+    400090: Arbol_follaje 2
+    400092: Arbol_follaje 20
+    400094: Arbol_follaje 21
+    400096: Arbol_follaje 22
+    400098: Arbol_follaje 23
+    400100: Arbol_follaje 24
+    400102: Arbol_follaje 25
+    400104: Arbol_follaje 26
+    400106: Arbol_follaje 27
+    400108: Arbol_follaje 28
+    400110: Arbol_follaje 29
+    400112: Arbol_follaje 3
+    400114: Arbol_follaje 30
+    400116: Arbol_follaje 31
+    400118: Arbol_follaje 32
+    400120: Arbol_follaje 33
+    400122: Arbol_follaje 4
+    400124: Arbol_follaje 5
+    400126: Arbol_follaje 6
+    400128: Arbol_follaje 7
+    400130: Arbol_follaje 8
+    400132: Arbol_follaje 9
+    400134: Arbol_follaje10
+    400136: Arbol_follaje11
+    400138: Arbol_follaje12
+    400140: Arbol_follaje13
+    400142: Arbol_follaje9
+    400144: Arbol_follaje9 1
+    400146: Arbol_follaje9 2
+    400148: Arbol_follaje9 3
+    400150: Arbol_tronco
+    400152: Arbol_tronco 1
+    400154: Arbol_tronco 10
+    400156: Arbol_tronco 11
+    400158: Arbol_tronco 12
+    400160: Arbol_tronco 13
+    400162: Arbol_tronco 14
+    400164: Arbol_tronco 15
+    400166: Arbol_tronco 16
+    400168: Arbol_tronco 17
+    400170: Arbol_tronco 18
+    400172: Arbol_tronco 19
+    400174: Arbol_tronco 2
+    400176: Arbol_tronco 20
+    400178: Arbol_tronco 21
+    400180: Arbol_tronco 22
+    400182: Arbol_tronco 23
+    400184: Arbol_tronco 24
+    400186: Arbol_tronco 25
+    400188: Arbol_tronco 26
+    400190: Arbol_tronco 27
+    400192: Arbol_tronco 28
+    400194: Arbol_tronco 29
+    400196: Arbol_tronco 3
+    400198: Arbol_tronco 30
+    400200: Arbol_tronco 31
+    400202: Arbol_tronco 32
+    400204: Arbol_tronco 33
+    400206: Arbol_tronco 4
+    400208: Arbol_tronco 5
+    400210: Arbol_tronco 6
+    400212: Arbol_tronco 7
+    400214: Arbol_tronco 8
+    400216: Arbol_tronco 9
+    400218: Arbol_tronco1
+    400220: Arbol_tronco2
+    400222: Arbol_tronco3
+    400224: Arbol_tronco4
+    400226: Arboles
+    400228: Arboles1
+    400230: Auto_manejo
+    400232: Auto_todoterreno
+    400234: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Aleron
+    400236: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Aleron_soporte
+    400238: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Aleron_soportes
+    400240: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Capo
+    400242: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Capo_fibra_carbono
+    400244: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Carroceria_del
+    400246: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Carroceria_izq
+    400248: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Carroceria_tras
+    400250: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Carroceria_trasera
+    400252: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Correa_motor
+    400254: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Engine_estructure
+    400256: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Escape_izq
+    400258: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Estructura_debajo
+    400260: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Facia_delantera
+    400262: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Facia_trasera_fibra_carbono
+    400264: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_direccional
+    400266: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_led
+    400268: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla
+    400270: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla
+      1
+    400272: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla
+      2
+    400274: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla_carcasa
+    400276: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla_carcasa
+      1
+    400278: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla_carcasa
+      2
+    400280: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla_comp
+    400282: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla_comp1
+    400284: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla_comp2
+    400286: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_tras_cristal
+    400288: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_tras_fibra_carbono
+    400290: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_tras_led
+    400292: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faros_del
+    400294: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Lateral_puerta_izq
+    400296: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Lateral_puerta_izq_fibra_carbono
+    400298: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Llanta_del_der
+    400300: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Llanta_del_izq
+    400302: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Llanta_tras_der
+    400304: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Llanta_tras_izq
+    400306: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor
+    400308: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_carcasa
+    400310: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_correa_mediana
+    400312: "Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_correa_peque\xF1a"
+    400314: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte
+    400316: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte0
+    400318: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte1
+    400320: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte2
+    400322: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte3
+    400324: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte4
+    400326: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte5
+    400328: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte6
+    400330: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte7
+    400332: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte8
+    400334: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Parabrisas_delantero
+    400336: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Parabrisas_puerta
+    400338: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Parabrisas_trasero
+    400340: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Parrila
+    400342: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Parrila1
+    400344: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Parrila2
+    400346: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder1
+    400348: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder2
+    400350: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder3
+    400352: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder4
+    400354: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder5
+    400356: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder6
+    400358: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder7
+    400360: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Placa_del
+    400362: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Placa_tras
+    400364: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pPlane1
+    400366: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pPlane2
+    400368: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Puerta_izq
+    400370: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Radiador
+    400372: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Techo
+    400374: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Tuberia_motor
+    400376: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Tuberia_motor1
+    400378: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Tuberia_motor2
+    400380: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Tuberia_motor3
+    400382: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Tuberia_motor4
+    400384: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Tuberia_motor5
+    400386: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Ventila_trasera_fibra_carbono
+    400388: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Ventila_trasera_fibra_carbono1
+    400390: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Ventila_trasera_fibra_carbono2
+    400392: "Cars_OBJ_s:Carrocer\xEDa"
+    400394: Cars_OBJ_s:Chasis_BACK
+    400396: Cars_OBJ_s:Chasis_FRONT
+    400398: Cars_OBJ_s:DEFENSA
+    400400: Cars_OBJ_s:Defensa
+    400402: Cars_OBJ_s:ESPEJOS
+    400404: Cars_OBJ_s:Foco_DOWN_LFT
+    400406: Cars_OBJ_s:Foco_DOWN_RGT
+    400408: Cars_OBJ_s:Foco_UP_LFT
+    400410: Cars_OBJ_s:Foco_UP_RGT
+    400412: Cars_OBJ_s:Focos
+    400414: Cars_OBJ_s:FrontCar
+    400416: Cars_OBJ_s:LFT
+    400418: Cars_OBJ_s:Llanta_Back_LFT
+    400420: Cars_OBJ_s:Llanta_Back_RGT
+    400422: Cars_OBJ_s:Llanta_Delantera_rgt
+    400424: Cars_OBJ_s:Llanta_Delantera_rgt1
+    400426: Cars_OBJ_s:Llanta_Front_LFT
+    400428: Cars_OBJ_s:Llanta_Front_RGT
+    400430: Cars_OBJ_s:LLanta_trasera_rgt
+    400432: Cars_OBJ_s:LLanta_trasera_rgt1
+    400434: Cars_OBJ_s:LLANTAS
+    400436: Cars_OBJ_s:LLantas
+    400438: Cars_OBJ_s:MOTOR
+    400440: Cars_OBJ_s:Motor
+    400442: Cars_OBJ_s:PARRILLA
+    400444: Cars_OBJ_s:pDisc1
+    400446: Cars_OBJ_s:PLACA
+    400448: Cars_OBJ_s:polySurface3
+    400450: Cars_OBJ_s:polySurface40
+    400452: Cars_OBJ_s:polySurface48
+    400454: Cars_OBJ_s:polySurface49
+    400456: Cars_OBJ_s:polySurface51
+    400458: Cars_OBJ_s:polySurface58
+    400460: Cars_OBJ_s:polySurface66
+    400462: Cars_OBJ_s:polySurface67
+    400464: Cars_OBJ_s:polySurface70
+    400466: Cars_OBJ_s:pPlane1
+    400468: Cars_OBJ_s:pPlane4
+    400470: Cars_OBJ_s:PROPULSOR
+    400472: Cars_OBJ_s:pTorus1
+    400474: Cars_OBJ_s:Retrovisores
+    400476: Cars_OBJ_s:RGT
+    400478: Cars_OBJ_s:RIN_BACK_LFT
+    400480: Cars_OBJ_s:RIN_BACK_RGT
+    400482: Cars_OBJ_s:RIN_FRONT_LFT
+    400484: Cars_OBJ_s:RIN_FRONT_RGT
+    400486: Cars_OBJ_s:SOPORTE_LFT
+    400488: Cars_OBJ_s:SOPORTE_RGT
+    400490: Cars_OBJ_s:SPOILER
+    400492: Cars_OBJ_s:Spoiler
+    400494: Cars_OBJ_s:SUSPENSION_BACK
+    400496: Cars_OBJ_s:Suspension_FRONT
+    400498: Cars_OBJ_s:TANQUE_SALTO
+    400500: Cars_OBJ_s:Trasero
+    400502: City_
+    400504: CTrack
+    400506: Edificio10
+    400508: Edificio3
+    400510: Edificio7
+    400512: Edificio9
+    400514: group5
+    400516: group6
+    400518: group7
+    400520: group9
+    400522: //RootNode
+    400524: Isle
+    400526: Islitas
+    400528: MTrack
+    400530: Palmera_coco
+    400532: Palmera_coco 1
+    400534: Palmera_coco 2
+    400536: Palmera_coco 3
+    400538: Palmera_coco 4
+    400540: Palmera_coco 5
+    400542: Palmera_coco 6
+    400544: Palmera_coco 7
+    400546: Palmera_coco1
+    400548: Palmera_coco1 1
+    400550: Palmera_coco1 2
+    400552: Palmera_coco1 3
+    400554: Palmera_coco1 4
+    400556: Palmera_coco1 5
+    400558: Palmera_coco1 6
+    400560: Palmera_coco1 7
+    400562: Palmera_coco2
+    400564: Palmera_coco2 1
+    400566: Palmera_coco2 2
+    400568: Palmera_coco2 3
+    400570: Palmera_coco2 4
+    400572: Palmera_coco2 5
+    400574: Palmera_coco2 6
+    400576: Palmera_coco2 7
+    400578: Palmera_completa
+    400580: Palmera_completa1
+    400582: Palmera_completa2
+    400584: Palmera_completa3
+    400586: Palmera_completa4
+    400588: Palmera_completa5
+    400590: Palmera_completa6
+    400592: Palmera_completa7
+    400594: Palmera_hoja
+    400596: Palmera_hoja 1
+    400598: Palmera_hoja 2
+    400600: Palmera_hoja 3
+    400602: Palmera_hoja 4
+    400604: Palmera_hoja 5
+    400606: Palmera_hoja 6
+    400608: Palmera_hoja 7
+    400610: Palmera_hoja1
+    400612: Palmera_hoja1 1
+    400614: Palmera_hoja1 2
+    400616: Palmera_hoja1 3
+    400618: Palmera_hoja1 4
+    400620: Palmera_hoja1 5
+    400622: Palmera_hoja1 6
+    400624: Palmera_hoja1 7
+    400626: Palmera_hoja2
+    400628: Palmera_hoja2 1
+    400630: Palmera_hoja2 2
+    400632: Palmera_hoja2 3
+    400634: Palmera_hoja2 4
+    400636: Palmera_hoja2 5
+    400638: Palmera_hoja2 6
+    400640: Palmera_hoja2 7
+    400642: Palmera_hoja3
+    400644: Palmera_hoja3 1
+    400646: Palmera_hoja3 2
+    400648: Palmera_hoja3 3
+    400650: Palmera_hoja3 4
+    400652: Palmera_hoja3 5
+    400654: Palmera_hoja3 6
+    400656: Palmera_hoja3 7
+    400658: Palmera_hoja4
+    400660: Palmera_hoja4 1
+    400662: Palmera_hoja4 2
+    400664: Palmera_hoja4 3
+    400666: Palmera_hoja4 4
+    400668: Palmera_hoja4 5
+    400670: Palmera_hoja4 6
+    400672: Palmera_hoja4 7
+    400674: Palmera_hoja5
+    400676: Palmera_hoja5 1
+    400678: Palmera_hoja5 2
+    400680: Palmera_hoja5 3
+    400682: Palmera_hoja5 4
+    400684: Palmera_hoja5 5
+    400686: Palmera_hoja5 6
+    400688: Palmera_hoja5 7
+    400690: Palmera_tronco
+    400692: Palmera_tronco 1
+    400694: Palmera_tronco 2
+    400696: Palmera_tronco 3
+    400698: Palmera_tronco 4
+    400700: Palmera_tronco 5
+    400702: Palmera_tronco 6
+    400704: Palmera_tronco 7
+    400706: Palmeras
+    400708: pCube3
+    400710: pCube4
+    400712: pCylinder1
+    400714: pCylinder10
+    400716: pCylinder11
+    400718: pCylinder12
+    400720: pCylinder13
+    400722: pCylinder14
+    400724: pCylinder15
+    400726: pCylinder16
+    400728: pCylinder17
+    400730: pCylinder18
+    400732: pCylinder19
+    400734: pCylinder2
+    400736: pCylinder20
+    400738: pCylinder3
+    400740: pCylinder4
+    400742: pCylinder5
+    400744: pCylinder6
+    400746: pCylinder7
+    400748: pCylinder8
+    400750: pCylinder9
+    400752: Pino_completo
+    400754: Pino_completo1
+    400756: Pino_completo10
+    400758: Pino_completo12
+    400760: Pino_completo2
+    400762: Pino_completo3
+    400764: Pino_completo4
+    400766: Pino_completo5
+    400768: Pino_completo6
+    400770: Pino_completo7
+    400772: Pino_completo8
+    400774: Pino_completo9
+    400776: Pino_follaje
+    400778: Pino_follaje 1
+    400780: Pino_follaje 10
+    400782: Pino_follaje 11
+    400784: Pino_follaje 2
+    400786: Pino_follaje 3
+    400788: Pino_follaje 4
+    400790: Pino_follaje 5
+    400792: Pino_follaje 6
+    400794: Pino_follaje 7
+    400796: Pino_follaje 8
+    400798: Pino_follaje 9
+    400800: Pino_tronco
+    400802: Pino_tronco 1
+    400804: Pino_tronco 10
+    400806: Pino_tronco 11
+    400808: Pino_tronco 2
+    400810: Pino_tronco 3
+    400812: Pino_tronco 4
+    400814: Pino_tronco 5
+    400816: Pino_tronco 6
+    400818: Pino_tronco 7
+    400820: Pino_tronco 8
+    400822: Pino_tronco 9
+    400824: Pinos
+    400826: pPlane1
+    400828: pPlane2
+    400830: pPlane5
+    400832: pPlane6
+    400834: pPlane7
+    400836: pPlane8
+    400838: pSphere10
+    400840: pSphere12
+    400842: pSphere16
+    400844: pSphere17
+    400846: pSphere18
+    400848: pSphere19
+    400850: pSphere20
+    400852: pSphere23
+    400854: pSphere25
+    400856: pSphere28
+    400858: pTorus5
+    400860: pTorus6
+    400862: pTorus7
+    400864: pTorus8
+    400866: pTorus9
+    400868: RatRod
+    400870: Track2_section_001
+    400872: Track2_section_003
+    400874: Track2_section_02
+    400876: transform49
+    400878: transform50
+    400880: VTrack
+    2100000: BordeVel
+    2100002: Track3_initialShadingGroup1
+    2100004: BlueGlow
+    2100006: RoadV
+    2100008: StingrayPBS5
+    2100010: Borde
+    2100012: OtroBorde
+    2100014: Luces
+    2100016: StingrayPBS9
+    2100018: Track
+    2100020: RoadM
+    2100022: BordeM
+    2100024: lambert28
+    2100026: Building
+    2100028: Dock1
+    2100030: Esferas
+    2100032: WheelMet
+    2100034: Boat1
+    2100036: lambert27
+    2100038: Track2_section_003_mat
+    2100040: Track2_section_003_barandal_ID
+    2100042: Track2_section_003_contenedor_ID
+    2100044: Track2_section_003_Below_ID
+    2100046: Track2_section3_mid_ID
+    2100048: Track2_section_003_terrain_ID
+    2100050: lambert29
+    2100052: Palmera_tronco_PBS
+    2100054: Palmera_hojas_PBS
+    2100056: Palmera_cocos_PBS
+    2100058: Pino_tronco_PBS
+    2100060: Pino_hojas_PBS
+    2100062: Arbol_tronco_PBS
+    2100064: Arbol_follaje_PBS
+    2100066: Cars_OBJ_s_chasis
+    2100068: Cars_OBJ_s_glass
+    2100070: Cars_OBJ_s_retrovisor
+    2100072: Cars_OBJ_s_espejo
+    2100074: Cars_OBJ_s_lambert2
+    2100076: Cars_OBJ_s_Populsor
+    2100078: Cars_OBJ_s_fire
+    2100080: Cars_OBJ_s_Default_Material
+    2100082: Cars_OBJ_s_cofreOUTLINE
+    2100084: Cars_OBJ_s_ParrillaBAC
+    2100086: Cars_OBJ_s_cofre1
+    2100088: Cars_OBJ_s_Hole
+    2100090: Cars_OBJ_s_StingrayPBS18
+    2100092: Cars_OBJ_s_focoSoporte
+    2100094: Cars_OBJ_s_focoBack
+    2100096: Cars_OBJ_s_focoFRONT
+    2100098: Cars_OBJ_s_parrilla
+    2100100: Cars_OBJ_s_innerLLANTA
+    2100102: Cars_OBJ_s_Llanta
+    2100104: Cars_OBJ_s_carablanca
+    2100106: Cars_OBJ_s_rines
+    2100108: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004_Fibra_carbono_PBS
+    2100110: lambert1
+    2100112: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004_Llanta_caucho_PBS
+    2100114: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004_Llanta_rin_interior_PBS
+    2100116: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004_Llanta_rin_PBS
+    2100118: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004_Carroceria_trasera_PBS
+    2100120: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004_Parabrisas_PBS
+    2100122: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004_Faro_trasero_carcasa
+    2100124: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004_Faros_traseros_led_PBS
+    2100126: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004_Escapes_PBS
+    2100128: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004_Facia_del_PBS
+    2100130: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004_Parrila_PBS
+    2100132: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004_Carroceria_del_PBS
+    2100134: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004_Faros_plastico_mat
+    2100136: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004_Faros_mat
+    2100138: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004_Faros_led_mat
+    2100140: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004_Faros_direccional_mat
+    2100142: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004_Carroceria_lateral_PBS
+    2100144: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004_Carroceria_techo_PBS
+    2100146: Cars_OBJ_s_FrenteBase
+    2100148: Cars_OBJ_s_Parte_Trasera
+    2100150: Cars_OBJ_s_Aler_on
+    2100152: Cars_OBJ_s_Motor2
+    2100154: Cars_OBJ_s_Llantas
+    2100156: Cars_OBJ_s_Metal1
+    2100158: Cars_OBJ_s_Ventanas
+    2300000: Arbol_follaje
+    2300002: Arbol_follaje 1
+    2300004: Arbol_follaje 10
+    2300006: Arbol_follaje 11
+    2300008: Arbol_follaje 12
+    2300010: Arbol_follaje 13
+    2300012: Arbol_follaje 14
+    2300014: Arbol_follaje 15
+    2300016: Arbol_follaje 16
+    2300018: Arbol_follaje 17
+    2300020: Arbol_follaje 18
+    2300022: Arbol_follaje 19
+    2300024: Arbol_follaje 2
+    2300026: Arbol_follaje 20
+    2300028: Arbol_follaje 21
+    2300030: Arbol_follaje 22
+    2300032: Arbol_follaje 23
+    2300034: Arbol_follaje 24
+    2300036: Arbol_follaje 25
+    2300038: Arbol_follaje 26
+    2300040: Arbol_follaje 27
+    2300042: Arbol_follaje 28
+    2300044: Arbol_follaje 29
+    2300046: Arbol_follaje 3
+    2300048: Arbol_follaje 30
+    2300050: Arbol_follaje 31
+    2300052: Arbol_follaje 32
+    2300054: Arbol_follaje 33
+    2300056: Arbol_follaje 4
+    2300058: Arbol_follaje 5
+    2300060: Arbol_follaje 6
+    2300062: Arbol_follaje 7
+    2300064: Arbol_follaje 8
+    2300066: Arbol_follaje 9
+    2300068: Arbol_follaje10
+    2300070: Arbol_follaje11
+    2300072: Arbol_follaje12
+    2300074: Arbol_follaje13
+    2300076: Arbol_follaje9
+    2300078: Arbol_follaje9 1
+    2300080: Arbol_follaje9 2
+    2300082: Arbol_follaje9 3
+    2300084: Arbol_tronco
+    2300086: Arbol_tronco 1
+    2300088: Arbol_tronco 10
+    2300090: Arbol_tronco 11
+    2300092: Arbol_tronco 12
+    2300094: Arbol_tronco 13
+    2300096: Arbol_tronco 14
+    2300098: Arbol_tronco 15
+    2300100: Arbol_tronco 16
+    2300102: Arbol_tronco 17
+    2300104: Arbol_tronco 18
+    2300106: Arbol_tronco 19
+    2300108: Arbol_tronco 2
+    2300110: Arbol_tronco 20
+    2300112: Arbol_tronco 21
+    2300114: Arbol_tronco 22
+    2300116: Arbol_tronco 23
+    2300118: Arbol_tronco 24
+    2300120: Arbol_tronco 25
+    2300122: Arbol_tronco 26
+    2300124: Arbol_tronco 27
+    2300126: Arbol_tronco 28
+    2300128: Arbol_tronco 29
+    2300130: Arbol_tronco 3
+    2300132: Arbol_tronco 30
+    2300134: Arbol_tronco 31
+    2300136: Arbol_tronco 32
+    2300138: Arbol_tronco 33
+    2300140: Arbol_tronco 4
+    2300142: Arbol_tronco 5
+    2300144: Arbol_tronco 6
+    2300146: Arbol_tronco 7
+    2300148: Arbol_tronco 8
+    2300150: Arbol_tronco 9
+    2300152: Arbol_tronco1
+    2300154: Arbol_tronco2
+    2300156: Arbol_tronco3
+    2300158: Arbol_tronco4
+    2300160: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Aleron
+    2300162: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Aleron_soporte
+    2300164: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Aleron_soportes
+    2300166: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Capo
+    2300168: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Capo_fibra_carbono
+    2300170: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Carroceria_trasera
+    2300172: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Correa_motor
+    2300174: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Engine_estructure
+    2300176: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Escape_izq
+    2300178: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Facia_delantera
+    2300180: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Facia_trasera_fibra_carbono
+    2300182: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_direccional
+    2300184: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_led
+    2300186: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla
+    2300188: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla
+      1
+    2300190: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla
+      2
+    2300192: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla_carcasa
+    2300194: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla_carcasa
+      1
+    2300196: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla_carcasa
+      2
+    2300198: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_tras_cristal
+    2300200: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_tras_fibra_carbono
+    2300202: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_tras_led
+    2300204: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Lateral_puerta_izq
+    2300206: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Lateral_puerta_izq_fibra_carbono
+    2300208: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Llanta_del_der
+    2300210: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Llanta_del_izq
+    2300212: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Llanta_tras_der
+    2300214: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Llanta_tras_izq
+    2300216: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_carcasa
+    2300218: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_correa_mediana
+    2300220: "Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_correa_peque\xF1a"
+    2300222: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte
+    2300224: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte0
+    2300226: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte1
+    2300228: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte2
+    2300230: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte3
+    2300232: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte4
+    2300234: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte5
+    2300236: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte6
+    2300238: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte7
+    2300240: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte8
+    2300242: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Parabrisas_delantero
+    2300244: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Parabrisas_puerta
+    2300246: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Parabrisas_trasero
+    2300248: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Parrila
+    2300250: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Parrila1
+    2300252: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Parrila2
+    2300254: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder1
+    2300256: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder2
+    2300258: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder3
+    2300260: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder4
+    2300262: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder5
+    2300264: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder6
+    2300266: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder7
+    2300268: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Placa_del
+    2300270: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Placa_tras
+    2300272: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pPlane1
+    2300274: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pPlane2
+    2300276: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Puerta_izq
+    2300278: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Radiador
+    2300280: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Techo
+    2300282: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Tuberia_motor
+    2300284: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Tuberia_motor1
+    2300286: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Tuberia_motor2
+    2300288: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Tuberia_motor3
+    2300290: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Tuberia_motor4
+    2300292: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Tuberia_motor5
+    2300294: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Ventila_trasera_fibra_carbono
+    2300296: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Ventila_trasera_fibra_carbono1
+    2300298: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Ventila_trasera_fibra_carbono2
+    2300300: "Cars_OBJ_s:Carrocer\xEDa"
+    2300302: Cars_OBJ_s:Chasis_BACK
+    2300304: Cars_OBJ_s:Chasis_FRONT
+    2300306: Cars_OBJ_s:DEFENSA
+    2300308: Cars_OBJ_s:Defensa
+    2300310: Cars_OBJ_s:Foco_DOWN_LFT
+    2300312: Cars_OBJ_s:Foco_DOWN_RGT
+    2300314: Cars_OBJ_s:Foco_UP_LFT
+    2300316: Cars_OBJ_s:Foco_UP_RGT
+    2300318: Cars_OBJ_s:LFT
+    2300320: Cars_OBJ_s:Llanta_Back_LFT
+    2300322: Cars_OBJ_s:Llanta_Back_RGT
+    2300324: Cars_OBJ_s:Llanta_Delantera_rgt
+    2300326: Cars_OBJ_s:Llanta_Delantera_rgt1
+    2300328: Cars_OBJ_s:Llanta_Front_LFT
+    2300330: Cars_OBJ_s:Llanta_Front_RGT
+    2300332: Cars_OBJ_s:LLanta_trasera_rgt
+    2300334: Cars_OBJ_s:LLanta_trasera_rgt1
+    2300336: Cars_OBJ_s:MOTOR
+    2300338: Cars_OBJ_s:PARRILLA
+    2300340: Cars_OBJ_s:pDisc1
+    2300342: Cars_OBJ_s:PLACA
+    2300344: Cars_OBJ_s:polySurface3
+    2300346: Cars_OBJ_s:polySurface40
+    2300348: Cars_OBJ_s:polySurface48
+    2300350: Cars_OBJ_s:polySurface49
+    2300352: Cars_OBJ_s:polySurface51
+    2300354: Cars_OBJ_s:polySurface58
+    2300356: Cars_OBJ_s:polySurface66
+    2300358: Cars_OBJ_s:polySurface67
+    2300360: Cars_OBJ_s:polySurface70
+    2300362: Cars_OBJ_s:pPlane1
+    2300364: Cars_OBJ_s:pPlane4
+    2300366: Cars_OBJ_s:PROPULSOR
+    2300368: Cars_OBJ_s:pTorus1
+    2300370: Cars_OBJ_s:Retrovisores
+    2300372: Cars_OBJ_s:RGT
+    2300374: Cars_OBJ_s:RIN_BACK_LFT
+    2300376: Cars_OBJ_s:RIN_BACK_RGT
+    2300378: Cars_OBJ_s:RIN_FRONT_LFT
+    2300380: Cars_OBJ_s:RIN_FRONT_RGT
+    2300382: Cars_OBJ_s:SOPORTE_LFT
+    2300384: Cars_OBJ_s:SOPORTE_RGT
+    2300386: Cars_OBJ_s:SPOILER
+    2300388: Cars_OBJ_s:Spoiler
+    2300390: Cars_OBJ_s:TANQUE_SALTO
+    2300392: Cars_OBJ_s:Trasero
+    2300394: CTrack
+    2300396: Edificio10
+    2300398: Edificio3
+    2300400: Edificio7
+    2300402: Edificio9
+    2300404: Isle
+    2300406: MTrack
+    2300408: Palmera_coco
+    2300410: Palmera_coco 1
+    2300412: Palmera_coco 2
+    2300414: Palmera_coco 3
+    2300416: Palmera_coco 4
+    2300418: Palmera_coco 5
+    2300420: Palmera_coco 6
+    2300422: Palmera_coco 7
+    2300424: Palmera_coco1
+    2300426: Palmera_coco1 1
+    2300428: Palmera_coco1 2
+    2300430: Palmera_coco1 3
+    2300432: Palmera_coco1 4
+    2300434: Palmera_coco1 5
+    2300436: Palmera_coco1 6
+    2300438: Palmera_coco1 7
+    2300440: Palmera_coco2
+    2300442: Palmera_coco2 1
+    2300444: Palmera_coco2 2
+    2300446: Palmera_coco2 3
+    2300448: Palmera_coco2 4
+    2300450: Palmera_coco2 5
+    2300452: Palmera_coco2 6
+    2300454: Palmera_coco2 7
+    2300456: Palmera_hoja
+    2300458: Palmera_hoja 1
+    2300460: Palmera_hoja 2
+    2300462: Palmera_hoja 3
+    2300464: Palmera_hoja 4
+    2300466: Palmera_hoja 5
+    2300468: Palmera_hoja 6
+    2300470: Palmera_hoja 7
+    2300472: Palmera_hoja1
+    2300474: Palmera_hoja1 1
+    2300476: Palmera_hoja1 2
+    2300478: Palmera_hoja1 3
+    2300480: Palmera_hoja1 4
+    2300482: Palmera_hoja1 5
+    2300484: Palmera_hoja1 6
+    2300486: Palmera_hoja1 7
+    2300488: Palmera_hoja2
+    2300490: Palmera_hoja2 1
+    2300492: Palmera_hoja2 2
+    2300494: Palmera_hoja2 3
+    2300496: Palmera_hoja2 4
+    2300498: Palmera_hoja2 5
+    2300500: Palmera_hoja2 6
+    2300502: Palmera_hoja2 7
+    2300504: Palmera_hoja3
+    2300506: Palmera_hoja3 1
+    2300508: Palmera_hoja3 2
+    2300510: Palmera_hoja3 3
+    2300512: Palmera_hoja3 4
+    2300514: Palmera_hoja3 5
+    2300516: Palmera_hoja3 6
+    2300518: Palmera_hoja3 7
+    2300520: Palmera_hoja4
+    2300522: Palmera_hoja4 1
+    2300524: Palmera_hoja4 2
+    2300526: Palmera_hoja4 3
+    2300528: Palmera_hoja4 4
+    2300530: Palmera_hoja4 5
+    2300532: Palmera_hoja4 6
+    2300534: Palmera_hoja4 7
+    2300536: Palmera_hoja5
+    2300538: Palmera_hoja5 1
+    2300540: Palmera_hoja5 2
+    2300542: Palmera_hoja5 3
+    2300544: Palmera_hoja5 4
+    2300546: Palmera_hoja5 5
+    2300548: Palmera_hoja5 6
+    2300550: Palmera_hoja5 7
+    2300552: Palmera_tronco
+    2300554: Palmera_tronco 1
+    2300556: Palmera_tronco 2
+    2300558: Palmera_tronco 3
+    2300560: Palmera_tronco 4
+    2300562: Palmera_tronco 5
+    2300564: Palmera_tronco 6
+    2300566: Palmera_tronco 7
+    2300568: pCube3
+    2300570: pCube4
+    2300572: pCylinder1
+    2300574: pCylinder10
+    2300576: pCylinder11
+    2300578: pCylinder12
+    2300580: pCylinder13
+    2300582: pCylinder14
+    2300584: pCylinder15
+    2300586: pCylinder16
+    2300588: pCylinder17
+    2300590: pCylinder18
+    2300592: pCylinder19
+    2300594: pCylinder2
+    2300596: pCylinder20
+    2300598: pCylinder3
+    2300600: pCylinder4
+    2300602: pCylinder5
+    2300604: pCylinder6
+    2300606: pCylinder7
+    2300608: pCylinder8
+    2300610: pCylinder9
+    2300612: Pino_follaje
+    2300614: Pino_follaje 1
+    2300616: Pino_follaje 10
+    2300618: Pino_follaje 11
+    2300620: Pino_follaje 2
+    2300622: Pino_follaje 3
+    2300624: Pino_follaje 4
+    2300626: Pino_follaje 5
+    2300628: Pino_follaje 6
+    2300630: Pino_follaje 7
+    2300632: Pino_follaje 8
+    2300634: Pino_follaje 9
+    2300636: Pino_tronco
+    2300638: Pino_tronco 1
+    2300640: Pino_tronco 10
+    2300642: Pino_tronco 11
+    2300644: Pino_tronco 2
+    2300646: Pino_tronco 3
+    2300648: Pino_tronco 4
+    2300650: Pino_tronco 5
+    2300652: Pino_tronco 6
+    2300654: Pino_tronco 7
+    2300656: Pino_tronco 8
+    2300658: Pino_tronco 9
+    2300660: pPlane1
+    2300662: pPlane2
+    2300664: pPlane5
+    2300666: pPlane6
+    2300668: pPlane7
+    2300670: pPlane8
+    2300672: pSphere10
+    2300674: pSphere12
+    2300676: pSphere16
+    2300678: pSphere17
+    2300680: pSphere18
+    2300682: pSphere19
+    2300684: pSphere20
+    2300686: pSphere23
+    2300688: pSphere25
+    2300690: pSphere28
+    2300692: pTorus5
+    2300694: pTorus6
+    2300696: pTorus7
+    2300698: pTorus8
+    2300700: pTorus9
+    2300702: Track2_section_001
+    2300704: Track2_section_003
+    2300706: Track2_section_02
+    2300708: VTrack
+    3300000: Arbol_follaje
+    3300002: Arbol_follaje 1
+    3300004: Arbol_follaje 10
+    3300006: Arbol_follaje 11
+    3300008: Arbol_follaje 12
+    3300010: Arbol_follaje 13
+    3300012: Arbol_follaje 14
+    3300014: Arbol_follaje 15
+    3300016: Arbol_follaje 16
+    3300018: Arbol_follaje 17
+    3300020: Arbol_follaje 18
+    3300022: Arbol_follaje 19
+    3300024: Arbol_follaje 2
+    3300026: Arbol_follaje 20
+    3300028: Arbol_follaje 21
+    3300030: Arbol_follaje 22
+    3300032: Arbol_follaje 23
+    3300034: Arbol_follaje 24
+    3300036: Arbol_follaje 25
+    3300038: Arbol_follaje 26
+    3300040: Arbol_follaje 27
+    3300042: Arbol_follaje 28
+    3300044: Arbol_follaje 29
+    3300046: Arbol_follaje 3
+    3300048: Arbol_follaje 30
+    3300050: Arbol_follaje 31
+    3300052: Arbol_follaje 32
+    3300054: Arbol_follaje 33
+    3300056: Arbol_follaje 4
+    3300058: Arbol_follaje 5
+    3300060: Arbol_follaje 6
+    3300062: Arbol_follaje 7
+    3300064: Arbol_follaje 8
+    3300066: Arbol_follaje 9
+    3300068: Arbol_follaje10
+    3300070: Arbol_follaje11
+    3300072: Arbol_follaje12
+    3300074: Arbol_follaje13
+    3300076: Arbol_follaje9
+    3300078: Arbol_follaje9 1
+    3300080: Arbol_follaje9 2
+    3300082: Arbol_follaje9 3
+    3300084: Arbol_tronco
+    3300086: Arbol_tronco 1
+    3300088: Arbol_tronco 10
+    3300090: Arbol_tronco 11
+    3300092: Arbol_tronco 12
+    3300094: Arbol_tronco 13
+    3300096: Arbol_tronco 14
+    3300098: Arbol_tronco 15
+    3300100: Arbol_tronco 16
+    3300102: Arbol_tronco 17
+    3300104: Arbol_tronco 18
+    3300106: Arbol_tronco 19
+    3300108: Arbol_tronco 2
+    3300110: Arbol_tronco 20
+    3300112: Arbol_tronco 21
+    3300114: Arbol_tronco 22
+    3300116: Arbol_tronco 23
+    3300118: Arbol_tronco 24
+    3300120: Arbol_tronco 25
+    3300122: Arbol_tronco 26
+    3300124: Arbol_tronco 27
+    3300126: Arbol_tronco 28
+    3300128: Arbol_tronco 29
+    3300130: Arbol_tronco 3
+    3300132: Arbol_tronco 30
+    3300134: Arbol_tronco 31
+    3300136: Arbol_tronco 32
+    3300138: Arbol_tronco 33
+    3300140: Arbol_tronco 4
+    3300142: Arbol_tronco 5
+    3300144: Arbol_tronco 6
+    3300146: Arbol_tronco 7
+    3300148: Arbol_tronco 8
+    3300150: Arbol_tronco 9
+    3300152: Arbol_tronco1
+    3300154: Arbol_tronco2
+    3300156: Arbol_tronco3
+    3300158: Arbol_tronco4
+    3300160: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Aleron
+    3300162: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Aleron_soporte
+    3300164: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Aleron_soportes
+    3300166: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Capo
+    3300168: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Capo_fibra_carbono
+    3300170: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Carroceria_trasera
+    3300172: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Correa_motor
+    3300174: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Engine_estructure
+    3300176: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Escape_izq
+    3300178: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Facia_delantera
+    3300180: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Facia_trasera_fibra_carbono
+    3300182: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_direccional
+    3300184: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_led
+    3300186: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla
+    3300188: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla
+      1
+    3300190: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla
+      2
+    3300192: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla_carcasa
+    3300194: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla_carcasa
+      1
+    3300196: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla_carcasa
+      2
+    3300198: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_tras_cristal
+    3300200: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_tras_fibra_carbono
+    3300202: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_tras_led
+    3300204: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Lateral_puerta_izq
+    3300206: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Lateral_puerta_izq_fibra_carbono
+    3300208: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Llanta_del_der
+    3300210: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Llanta_del_izq
+    3300212: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Llanta_tras_der
+    3300214: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Llanta_tras_izq
+    3300216: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_carcasa
+    3300218: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_correa_mediana
+    3300220: "Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_correa_peque\xF1a"
+    3300222: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte
+    3300224: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte0
+    3300226: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte1
+    3300228: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte2
+    3300230: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte3
+    3300232: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte4
+    3300234: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte5
+    3300236: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte6
+    3300238: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte7
+    3300240: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte8
+    3300242: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Parabrisas_delantero
+    3300244: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Parabrisas_puerta
+    3300246: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Parabrisas_trasero
+    3300248: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Parrila
+    3300250: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Parrila1
+    3300252: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Parrila2
+    3300254: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder1
+    3300256: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder2
+    3300258: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder3
+    3300260: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder4
+    3300262: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder5
+    3300264: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder6
+    3300266: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder7
+    3300268: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Placa_del
+    3300270: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Placa_tras
+    3300272: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pPlane1
+    3300274: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pPlane2
+    3300276: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Puerta_izq
+    3300278: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Radiador
+    3300280: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Techo
+    3300282: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Tuberia_motor
+    3300284: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Tuberia_motor1
+    3300286: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Tuberia_motor2
+    3300288: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Tuberia_motor3
+    3300290: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Tuberia_motor4
+    3300292: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Tuberia_motor5
+    3300294: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Ventila_trasera_fibra_carbono
+    3300296: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Ventila_trasera_fibra_carbono1
+    3300298: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Ventila_trasera_fibra_carbono2
+    3300300: "Cars_OBJ_s:Carrocer\xEDa"
+    3300302: Cars_OBJ_s:Chasis_BACK
+    3300304: Cars_OBJ_s:Chasis_FRONT
+    3300306: Cars_OBJ_s:DEFENSA
+    3300308: Cars_OBJ_s:Defensa
+    3300310: Cars_OBJ_s:Foco_DOWN_LFT
+    3300312: Cars_OBJ_s:Foco_DOWN_RGT
+    3300314: Cars_OBJ_s:Foco_UP_LFT
+    3300316: Cars_OBJ_s:Foco_UP_RGT
+    3300318: Cars_OBJ_s:LFT
+    3300320: Cars_OBJ_s:Llanta_Back_LFT
+    3300322: Cars_OBJ_s:Llanta_Back_RGT
+    3300324: Cars_OBJ_s:Llanta_Delantera_rgt
+    3300326: Cars_OBJ_s:Llanta_Delantera_rgt1
+    3300328: Cars_OBJ_s:Llanta_Front_LFT
+    3300330: Cars_OBJ_s:Llanta_Front_RGT
+    3300332: Cars_OBJ_s:LLanta_trasera_rgt
+    3300334: Cars_OBJ_s:LLanta_trasera_rgt1
+    3300336: Cars_OBJ_s:MOTOR
+    3300338: Cars_OBJ_s:PARRILLA
+    3300340: Cars_OBJ_s:pDisc1
+    3300342: Cars_OBJ_s:PLACA
+    3300344: Cars_OBJ_s:polySurface3
+    3300346: Cars_OBJ_s:polySurface40
+    3300348: Cars_OBJ_s:polySurface48
+    3300350: Cars_OBJ_s:polySurface49
+    3300352: Cars_OBJ_s:polySurface51
+    3300354: Cars_OBJ_s:polySurface58
+    3300356: Cars_OBJ_s:polySurface66
+    3300358: Cars_OBJ_s:polySurface67
+    3300360: Cars_OBJ_s:polySurface70
+    3300362: Cars_OBJ_s:pPlane1
+    3300364: Cars_OBJ_s:pPlane4
+    3300366: Cars_OBJ_s:PROPULSOR
+    3300368: Cars_OBJ_s:pTorus1
+    3300370: Cars_OBJ_s:Retrovisores
+    3300372: Cars_OBJ_s:RGT
+    3300374: Cars_OBJ_s:RIN_BACK_LFT
+    3300376: Cars_OBJ_s:RIN_BACK_RGT
+    3300378: Cars_OBJ_s:RIN_FRONT_LFT
+    3300380: Cars_OBJ_s:RIN_FRONT_RGT
+    3300382: Cars_OBJ_s:SOPORTE_LFT
+    3300384: Cars_OBJ_s:SOPORTE_RGT
+    3300386: Cars_OBJ_s:SPOILER
+    3300388: Cars_OBJ_s:Spoiler
+    3300390: Cars_OBJ_s:TANQUE_SALTO
+    3300392: Cars_OBJ_s:Trasero
+    3300394: CTrack
+    3300396: Edificio10
+    3300398: Edificio3
+    3300400: Edificio7
+    3300402: Edificio9
+    3300404: Isle
+    3300406: MTrack
+    3300408: Palmera_coco
+    3300410: Palmera_coco 1
+    3300412: Palmera_coco 2
+    3300414: Palmera_coco 3
+    3300416: Palmera_coco 4
+    3300418: Palmera_coco 5
+    3300420: Palmera_coco 6
+    3300422: Palmera_coco 7
+    3300424: Palmera_coco1
+    3300426: Palmera_coco1 1
+    3300428: Palmera_coco1 2
+    3300430: Palmera_coco1 3
+    3300432: Palmera_coco1 4
+    3300434: Palmera_coco1 5
+    3300436: Palmera_coco1 6
+    3300438: Palmera_coco1 7
+    3300440: Palmera_coco2
+    3300442: Palmera_coco2 1
+    3300444: Palmera_coco2 2
+    3300446: Palmera_coco2 3
+    3300448: Palmera_coco2 4
+    3300450: Palmera_coco2 5
+    3300452: Palmera_coco2 6
+    3300454: Palmera_coco2 7
+    3300456: Palmera_hoja
+    3300458: Palmera_hoja 1
+    3300460: Palmera_hoja 2
+    3300462: Palmera_hoja 3
+    3300464: Palmera_hoja 4
+    3300466: Palmera_hoja 5
+    3300468: Palmera_hoja 6
+    3300470: Palmera_hoja 7
+    3300472: Palmera_hoja1
+    3300474: Palmera_hoja1 1
+    3300476: Palmera_hoja1 2
+    3300478: Palmera_hoja1 3
+    3300480: Palmera_hoja1 4
+    3300482: Palmera_hoja1 5
+    3300484: Palmera_hoja1 6
+    3300486: Palmera_hoja1 7
+    3300488: Palmera_hoja2
+    3300490: Palmera_hoja2 1
+    3300492: Palmera_hoja2 2
+    3300494: Palmera_hoja2 3
+    3300496: Palmera_hoja2 4
+    3300498: Palmera_hoja2 5
+    3300500: Palmera_hoja2 6
+    3300502: Palmera_hoja2 7
+    3300504: Palmera_hoja3
+    3300506: Palmera_hoja3 1
+    3300508: Palmera_hoja3 2
+    3300510: Palmera_hoja3 3
+    3300512: Palmera_hoja3 4
+    3300514: Palmera_hoja3 5
+    3300516: Palmera_hoja3 6
+    3300518: Palmera_hoja3 7
+    3300520: Palmera_hoja4
+    3300522: Palmera_hoja4 1
+    3300524: Palmera_hoja4 2
+    3300526: Palmera_hoja4 3
+    3300528: Palmera_hoja4 4
+    3300530: Palmera_hoja4 5
+    3300532: Palmera_hoja4 6
+    3300534: Palmera_hoja4 7
+    3300536: Palmera_hoja5
+    3300538: Palmera_hoja5 1
+    3300540: Palmera_hoja5 2
+    3300542: Palmera_hoja5 3
+    3300544: Palmera_hoja5 4
+    3300546: Palmera_hoja5 5
+    3300548: Palmera_hoja5 6
+    3300550: Palmera_hoja5 7
+    3300552: Palmera_tronco
+    3300554: Palmera_tronco 1
+    3300556: Palmera_tronco 2
+    3300558: Palmera_tronco 3
+    3300560: Palmera_tronco 4
+    3300562: Palmera_tronco 5
+    3300564: Palmera_tronco 6
+    3300566: Palmera_tronco 7
+    3300568: pCube3
+    3300570: pCube4
+    3300572: pCylinder1
+    3300574: pCylinder10
+    3300576: pCylinder11
+    3300578: pCylinder12
+    3300580: pCylinder13
+    3300582: pCylinder14
+    3300584: pCylinder15
+    3300586: pCylinder16
+    3300588: pCylinder17
+    3300590: pCylinder18
+    3300592: pCylinder19
+    3300594: pCylinder2
+    3300596: pCylinder20
+    3300598: pCylinder3
+    3300600: pCylinder4
+    3300602: pCylinder5
+    3300604: pCylinder6
+    3300606: pCylinder7
+    3300608: pCylinder8
+    3300610: pCylinder9
+    3300612: Pino_follaje
+    3300614: Pino_follaje 1
+    3300616: Pino_follaje 10
+    3300618: Pino_follaje 11
+    3300620: Pino_follaje 2
+    3300622: Pino_follaje 3
+    3300624: Pino_follaje 4
+    3300626: Pino_follaje 5
+    3300628: Pino_follaje 6
+    3300630: Pino_follaje 7
+    3300632: Pino_follaje 8
+    3300634: Pino_follaje 9
+    3300636: Pino_tronco
+    3300638: Pino_tronco 1
+    3300640: Pino_tronco 10
+    3300642: Pino_tronco 11
+    3300644: Pino_tronco 2
+    3300646: Pino_tronco 3
+    3300648: Pino_tronco 4
+    3300650: Pino_tronco 5
+    3300652: Pino_tronco 6
+    3300654: Pino_tronco 7
+    3300656: Pino_tronco 8
+    3300658: Pino_tronco 9
+    3300660: pPlane1
+    3300662: pPlane2
+    3300664: pPlane5
+    3300666: pPlane6
+    3300668: pPlane7
+    3300670: pPlane8
+    3300672: pSphere10
+    3300674: pSphere12
+    3300676: pSphere16
+    3300678: pSphere17
+    3300680: pSphere18
+    3300682: pSphere19
+    3300684: pSphere20
+    3300686: pSphere23
+    3300688: pSphere25
+    3300690: pSphere28
+    3300692: pTorus5
+    3300694: pTorus6
+    3300696: pTorus7
+    3300698: pTorus8
+    3300700: pTorus9
+    3300702: Track2_section_001
+    3300704: Track2_section_003
+    3300706: Track2_section_02
+    3300708: VTrack
+    4300000: VTrack
+    4300002: CTrack
+    4300004: Isle
+    4300006: MTrack
+    4300008: pCylinder6
+    4300010: pCylinder5
+    4300012: pCylinder7
+    4300014: pCylinder17
+    4300016: pCylinder18
+    4300018: pCylinder20
+    4300020: pCylinder16
+    4300022: pCylinder15
+    4300024: pCylinder14
+    4300026: pCylinder13
+    4300028: pCylinder19
+    4300030: pCylinder8
+    4300032: pCylinder11
+    4300034: pCylinder9
+    4300036: pCylinder10
+    4300038: pCylinder12
+    4300040: pCylinder3
+    4300042: pCylinder4
+    4300044: pCylinder1
+    4300046: pCylinder2
+    4300048: Edificio3
+    4300050: pPlane1
+    4300052: pSphere23
+    4300054: pSphere25
+    4300056: pSphere18
+    4300058: pSphere17
+    4300060: pSphere12
+    4300062: pTorus8
+    4300064: Edificio7
+    4300066: pTorus7
+    4300068: pTorus6
+    4300070: pCube4
+    4300072: Edificio9
+    4300074: Edificio10
+    4300076: pSphere10
+    4300078: pSphere20
+    4300080: pSphere19
+    4300082: pTorus5
+    4300084: pCube3
+    4300086: pSphere28
+    4300088: pSphere16
+    4300090: pTorus9
+    4300092: pPlane2
+    4300094: pPlane5
+    4300096: pPlane6
+    4300098: pPlane7
+    4300100: Track2_section_003
+    4300102: Track2_section_02
+    4300104: Track2_section_001
+    4300106: Palmera_tronco
+    4300108: Palmera_hoja
+    4300110: Palmera_coco
+    4300112: Palmera_hoja1
+    4300114: Palmera_hoja2
+    4300116: Palmera_hoja3
+    4300118: Palmera_hoja4
+    4300120: Palmera_hoja5
+    4300122: Palmera_coco1
+    4300124: Palmera_coco2
+    4300126: Palmera_tronco
+    4300128: Palmera_hoja
+    4300130: Palmera_coco
+    4300132: Palmera_hoja1
+    4300134: Palmera_hoja2
+    4300136: Palmera_hoja3
+    4300138: Palmera_hoja4
+    4300140: Palmera_hoja5
+    4300142: Palmera_coco1
+    4300144: Palmera_coco2
+    4300146: Palmera_tronco
+    4300148: Palmera_hoja
+    4300150: Palmera_coco
+    4300152: Palmera_hoja1
+    4300154: Palmera_hoja2
+    4300156: Palmera_hoja3
+    4300158: Palmera_hoja4
+    4300160: Palmera_hoja5
+    4300162: Palmera_coco1
+    4300164: Palmera_coco2
+    4300166: Palmera_tronco
+    4300168: Palmera_hoja
+    4300170: Palmera_coco
+    4300172: Palmera_hoja1
+    4300174: Palmera_hoja2
+    4300176: Palmera_hoja3
+    4300178: Palmera_hoja4
+    4300180: Palmera_hoja5
+    4300182: Palmera_coco1
+    4300184: Palmera_coco2
+    4300186: Palmera_tronco
+    4300188: Palmera_hoja
+    4300190: Palmera_coco
+    4300192: Palmera_hoja1
+    4300194: Palmera_hoja2
+    4300196: Palmera_hoja3
+    4300198: Palmera_hoja4
+    4300200: Palmera_hoja5
+    4300202: Palmera_coco1
+    4300204: Palmera_coco2
+    4300206: Palmera_tronco
+    4300208: Palmera_hoja
+    4300210: Palmera_coco
+    4300212: Palmera_hoja1
+    4300214: Palmera_hoja2
+    4300216: Palmera_hoja3
+    4300218: Palmera_hoja4
+    4300220: Palmera_hoja5
+    4300222: Palmera_coco1
+    4300224: Palmera_coco2
+    4300226: Palmera_tronco
+    4300228: Palmera_hoja
+    4300230: Palmera_coco
+    4300232: Palmera_hoja1
+    4300234: Palmera_hoja2
+    4300236: Palmera_hoja3
+    4300238: Palmera_hoja4
+    4300240: Palmera_hoja5
+    4300242: Palmera_coco1
+    4300244: Palmera_coco2
+    4300246: Palmera_tronco
+    4300248: Palmera_hoja
+    4300250: Palmera_coco
+    4300252: Palmera_hoja1
+    4300254: Palmera_hoja2
+    4300256: Palmera_hoja3
+    4300258: Palmera_hoja4
+    4300260: Palmera_hoja5
+    4300262: Palmera_coco1
+    4300264: Palmera_coco2
+    4300266: Pino_tronco
+    4300268: Pino_follaje
+    4300270: Pino_tronco
+    4300272: Pino_follaje
+    4300274: Pino_tronco
+    4300276: Pino_follaje
+    4300278: Pino_tronco
+    4300280: Pino_follaje
+    4300282: Pino_tronco
+    4300284: Pino_follaje
+    4300286: Pino_tronco
+    4300288: Pino_follaje
+    4300290: Pino_tronco
+    4300292: Pino_follaje
+    4300294: Pino_tronco
+    4300296: Pino_follaje
+    4300298: Pino_tronco
+    4300300: Pino_follaje
+    4300302: Pino_tronco
+    4300304: Pino_follaje
+    4300306: Pino_tronco
+    4300308: Pino_follaje
+    4300310: Pino_tronco
+    4300312: Pino_follaje
+    4300314: Arbol_tronco
+    4300316: Arbol_follaje
+    4300318: Arbol_tronco
+    4300320: Arbol_follaje
+    4300322: Arbol_tronco
+    4300324: Arbol_follaje
+    4300326: Arbol_tronco
+    4300328: Arbol_follaje
+    4300330: Arbol_follaje9
+    4300332: Arbol_tronco
+    4300334: Arbol_follaje
+    4300336: Arbol_tronco
+    4300338: Arbol_follaje
+    4300340: Arbol_tronco
+    4300342: Arbol_follaje
+    4300344: Arbol_tronco
+    4300346: Arbol_follaje
+    4300348: Arbol_tronco
+    4300350: Arbol_follaje
+    4300352: Arbol_tronco
+    4300354: Arbol_follaje
+    4300356: Arbol_tronco
+    4300358: Arbol_follaje
+    4300360: Arbol_tronco
+    4300362: Arbol_follaje
+    4300364: Arbol_tronco
+    4300366: Arbol_follaje
+    4300368: Arbol_follaje9
+    4300370: Arbol_tronco
+    4300372: Arbol_follaje
+    4300374: Arbol_follaje
+    4300376: Arbol_tronco
+    4300378: Arbol_tronco
+    4300380: Arbol_follaje
+    4300382: Arbol_tronco
+    4300384: Arbol_follaje
+    4300386: Arbol_tronco
+    4300388: Arbol_follaje
+    4300390: Arbol_follaje
+    4300392: Arbol_tronco
+    4300394: Arbol_tronco
+    4300396: Arbol_follaje
+    4300398: Arbol_tronco
+    4300400: Arbol_follaje
+    4300402: Arbol_follaje9
+    4300404: Arbol_tronco
+    4300406: Arbol_follaje
+    4300408: Arbol_tronco
+    4300410: Arbol_follaje
+    4300412: Arbol_follaje
+    4300414: Arbol_tronco
+    4300416: Arbol_follaje10
+    4300418: Arbol_tronco1
+    4300420: Arbol_follaje11
+    4300422: Arbol_tronco2
+    4300424: Arbol_follaje12
+    4300426: Arbol_tronco3
+    4300428: Arbol_follaje13
+    4300430: Arbol_tronco4
+    4300432: Arbol_tronco
+    4300434: Arbol_follaje
+    4300436: Arbol_tronco
+    4300438: Arbol_follaje
+    4300440: Arbol_tronco
+    4300442: Arbol_follaje
+    4300444: Arbol_tronco
+    4300446: Arbol_follaje
+    4300448: Arbol_tronco
+    4300450: Arbol_follaje
+    4300452: Arbol_follaje9
+    4300454: Arbol_tronco
+    4300456: Arbol_follaje
+    4300458: Arbol_tronco
+    4300460: Arbol_follaje
+    4300462: Arbol_tronco
+    4300464: Arbol_follaje
+    4300466: Arbol_tronco
+    4300468: Arbol_follaje
+    4300470: Arbol_tronco
+    4300472: Arbol_follaje
+    4300474: Cars_OBJ_s:Chasis_BACK
+    4300476: Cars_OBJ_s:LFT
+    4300478: Cars_OBJ_s:RGT
+    4300480: Cars_OBJ_s:SOPORTE_RGT
+    4300482: Cars_OBJ_s:SOPORTE_LFT
+    4300484: Cars_OBJ_s:SPOILER
+    4300486: Cars_OBJ_s:PROPULSOR
+    4300488: Cars_OBJ_s:DEFENSA
+    4300490: Cars_OBJ_s:PLACA
+    4300492: Cars_OBJ_s:polySurface49
+    4300494: Cars_OBJ_s:polySurface58
+    4300496: Cars_OBJ_s:polySurface66
+    4300498: Cars_OBJ_s:polySurface67
+    4300500: Cars_OBJ_s:TANQUE_SALTO
+    4300502: Cars_OBJ_s:Chasis_FRONT
+    4300504: Cars_OBJ_s:MOTOR
+    4300506: Cars_OBJ_s:polySurface51
+    4300508: Cars_OBJ_s:polySurface40
+    4300510: Cars_OBJ_s:polySurface70
+    4300512: Cars_OBJ_s:polySurface48
+    4300514: Cars_OBJ_s:Foco_UP_RGT
+    4300516: Cars_OBJ_s:Foco_DOWN_RGT
+    4300518: Cars_OBJ_s:Foco_UP_LFT
+    4300520: Cars_OBJ_s:Foco_DOWN_LFT
+    4300522: Cars_OBJ_s:PARRILLA
+    4300524: Cars_OBJ_s:Llanta_Front_LFT
+    4300526: Cars_OBJ_s:RIN_FRONT_LFT
+    4300528: Cars_OBJ_s:Llanta_Back_LFT
+    4300530: Cars_OBJ_s:RIN_BACK_LFT
+    4300532: Cars_OBJ_s:Llanta_Front_RGT
+    4300534: Cars_OBJ_s:RIN_FRONT_RGT
+    4300536: Cars_OBJ_s:Llanta_Back_RGT
+    4300538: Cars_OBJ_s:RIN_BACK_RGT
+    4300540: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Aleron
+    4300542: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Aleron_soportes
+    4300544: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Aleron_soporte
+    4300546: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Llanta_tras_izq
+    4300548: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Llanta_tras_der
+    4300550: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Llanta_del_der
+    4300552: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Llanta_del_izq
+    4300554: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pPlane1
+    4300556: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder1
+    4300558: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder2
+    4300560: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder3
+    4300562: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder4
+    4300564: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder5
+    4300566: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder6
+    4300568: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pCylinder7
+    4300570: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:pPlane2
+    4300572: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Carroceria_trasera
+    4300574: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Ventila_trasera_fibra_carbono
+    4300576: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Ventila_trasera_fibra_carbono1
+    4300578: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Ventila_trasera_fibra_carbono2
+    4300580: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Parabrisas_trasero
+    4300582: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_tras_cristal
+    4300584: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_tras_fibra_carbono
+    4300586: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_tras_led
+    4300588: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Facia_trasera_fibra_carbono
+    4300590: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Escape_izq
+    4300592: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Placa_tras
+    4300594: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Facia_delantera
+    4300596: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Parrila
+    4300598: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Placa_del
+    4300600: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Capo
+    4300602: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Capo_fibra_carbono
+    4300604: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Parabrisas_delantero
+    4300606: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla_carcasa
+    4300608: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla
+    4300610: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla_carcasa
+    4300612: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla
+    4300614: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla_carcasa
+    4300616: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_niebla
+    4300618: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_led
+    4300620: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Faro_direccional
+    4300622: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Parrila1
+    4300624: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Parrila2
+    4300626: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Lateral_puerta_izq_fibra_carbono
+    4300628: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Lateral_puerta_izq
+    4300630: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Puerta_izq
+    4300632: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Parabrisas_puerta
+    4300634: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Techo
+    4300636: "Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_correa_peque\xF1a"
+    4300638: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte8
+    4300640: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte7
+    4300642: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Tuberia_motor1
+    4300644: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte6
+    4300646: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_carcasa
+    4300648: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Radiador
+    4300650: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte5
+    4300652: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte4
+    4300654: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte3
+    4300656: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte2
+    4300658: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte1
+    4300660: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte
+    4300662: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_correa_mediana
+    4300664: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Motor_parte0
+    4300666: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Tuberia_motor
+    4300668: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Tuberia_motor2
+    4300670: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Correa_motor
+    4300672: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Engine_estructure
+    4300674: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Tuberia_motor3
+    4300676: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Tuberia_motor4
+    4300678: Car_concept_v3_022_engine_floor_completed_uv_completed_mirrored_textured_in_progress_004:Tuberia_motor5
+    4300680: Cars_OBJ_s:polySurface3
+    4300682: Cars_OBJ_s:Trasero
+    4300684: Cars_OBJ_s:Spoiler
+    4300686: Cars_OBJ_s:pPlane4
+    4300688: Cars_OBJ_s:pTorus1
+    4300690: Cars_OBJ_s:pDisc1
+    4300692: Cars_OBJ_s:pPlane1
+    4300694: Cars_OBJ_s:Llanta_Delantera_rgt
+    4300696: Cars_OBJ_s:Llanta_Delantera_rgt1
+    4300698: Cars_OBJ_s:Defensa
+    4300700: "Cars_OBJ_s:Carrocer\xEDa"
+    4300702: Cars_OBJ_s:LLanta_trasera_rgt
+    4300704: Cars_OBJ_s:LLanta_trasera_rgt1
+    4300706: Cars_OBJ_s:Retrovisores
+    4300708: pPlane8
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 5
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
