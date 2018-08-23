@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Maritza/Menu-Inicio.unity
     guid: 1a6e9acbcdaeb9c4583b1acae4b024e7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Maritza/Cart&Trackselection.unity
     guid: 32b47f848451834438592117a3c5ae61
+  - enabled: 1
+    path: Assets/Scenes/Gonzalo/CarSelection.unity
+    guid: 1195556d068d5aa4b9b4ce77e7710f63
   - enabled: 1
     path: Assets/Scenes/Maritza/MainRace.unity
     guid: f702fc668652bce458fd17cbd8544686

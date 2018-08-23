@@ -12,7 +12,7 @@ public class CarSelector : MonoBehaviour {
 	private float rotationAngle;
 	private float lastSelectionTime;
 
-	private bool isActive = true;
+	public bool isActive = true;
 
 	// Use this for initialization
 	void Start() {
