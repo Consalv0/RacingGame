@@ -17,18 +17,18 @@ public class Test_Jump : MonoBehaviour {
 	}
   private void Update()
   {
-    if (Input.GetKeyDown(KeyCode.D))
-      Debug.Log(Input.GetAxis("jump" + player));
+    if(!Timer(timeLeft))
+    timeLeft -= Time.deltaTime;
   }
 
   // Update is called once per frame
   void FixedUpdate () {
     //Debug.Log(timep);
-    timeLeft -= Time.deltaTime;
+ 
     if (Timer(timeLeft)&& Input.GetAxis("jump"+player)==1)
     {
       Debug.Log("activate");
-      rb.AddForce(new Vector3(0,force* Input.GetAxis("jump"+player), 0), ForceMode.Impulse);
+      rb.AddForce(new Vector3(0,force, 0), ForceMode.Impulse);
       timeLeft = timep;
     }
     if(timeLeft<0)

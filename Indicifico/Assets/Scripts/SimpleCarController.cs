@@ -52,6 +52,10 @@ public class SimpleCarController : MonoBehaviour {
 
   public void Start()
   {
+    front_leftT.transform.Rotate(new Vector3(0,-90,0));
+    front_rightT.transform.Rotate(new Vector3(0, 90, 0));
+    back_leftT.transform.Rotate(new Vector3(0, -90, 0));
+    back_rightT.transform.Rotate(new Vector3(0, 90, 0));
     negative_motorForce = motorForce * -1;
     originalSteerAngle = maxSteerAngle;
     SteerAngleClipping = maxSteerAngle + plusSteerAngle;

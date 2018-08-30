@@ -17,6 +17,7 @@ public class Debug_Velocity : MonoBehaviour {
 
   private void Update()
   {
-    text.text = "Vector velocidad: " + rb.velocity + "   magnitud: " + rb.velocity.magnitude+ "                          motor force: "+car.motorForce;
+    text.text = "Vector velocidad: " + rb.velocity + "   magnitud: " + rb.velocity.magnitude+ "                          motor force: "+car.motorForce+
+      "                          negative motor force:" + car.negative_motorForce  ;
   }
 }
