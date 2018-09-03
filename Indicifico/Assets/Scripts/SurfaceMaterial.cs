@@ -3,18 +3,38 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SurfaceMaterial : MonoBehaviour {
-	private static SurfaceMaterial defaultSurface;
-	public static SurfaceMaterial DefaultSurface {
+	public WheelFrictionCurve wheelFrictionCurve {
 		get {
-			if (defaultSurface == null) {
-				defaultSurface = new SurfaceMaterial {
-					friction = 1
-				};
-			}
+			WheelFrictionCurve wheelFriction = new WheelFrictionCurve();
 
-			return defaultSurface;
+			wheelFriction.extremumSlip = extremumSlip;
+			wheelFriction.extremumValue = extremumValue;
+			wheelFriction.asymptoteSlip = asymptoteSlip;
+			wheelFriction.asymptoteValue = asymptoteValue;
+			wheelFriction.stiffness = stiffness;
+
+			return wheelFriction;
 		}
 	}
 
-	public float friction = 1;
+	//
+	// Summary:
+	//     Extremum point slip (default 1).
+	public float extremumSlip = 0.2F;
+	//
+	// Summary:
+	//     Force at the extremum slip (default 20000).
+	public float extremumValue = 1;
+	//
+	// Summary:
+	//     Asymptote point slip (default 2).
+	public float asymptoteSlip = 0.5F;
+	//
+	// Summary:
+	//     Force at the asymptote slip (default 10000).
+	public float asymptoteValue = 0.75F;
+	//
+	// Summary:
+	//     Multiplier for the extremumValue and asymptoteValue values (default 1).
+	public float stiffness = 1;
 }

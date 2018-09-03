@@ -55,7 +55,6 @@ GameObject:
   - component: {fileID: 33714409200384064}
   - component: {fileID: 23007420330890958}
   - component: {fileID: 64037382072829834}
-  - component: {fileID: 114651473042259140}
   m_Layer: 30
   m_Name: Chassis
   m_TagString: Untagged
@@ -88,9 +87,6 @@ GameObject:
   - component: {fileID: 4544954102010884}
   - component: {fileID: 33831011017739228}
   - component: {fileID: 23092293601918234}
-  - component: {fileID: 114263053442959666}
-  - component: {fileID: 114806485837352892}
-  - component: {fileID: 114858979047261416}
   m_Layer: 30
   m_Name: Motor
   m_TagString: Untagged
@@ -207,6 +203,7 @@ GameObject:
   - component: {fileID: 54002390517261394}
   - component: {fileID: 114785716169586932}
   - component: {fileID: 114289862628138386}
+  - component: {fileID: 114040361976100530}
   m_Layer: 30
   m_Name: TestCarC
   m_TagString: Untagged
@@ -374,8 +371,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1894303876792470}
-  m_LocalRotation: {x: -0.021373838, y: -0.64296144, z: 0.0058001406, w: -0.7655783}
-  m_LocalPosition: {x: -203.4, y: 150.6, z: -87.5}
+  m_LocalRotation: {x: -0.008213411, y: 0.6864628, z: -0.020567503, w: 0.7268277}
+  m_LocalPosition: {x: 251.41, y: 37.17, z: 49.23}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4763948384099100}
@@ -384,7 +381,7 @@ Transform:
   - {fileID: 4704290742852578}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 2.3030002, y: 80.07101, z: 1.067}
+  m_LocalEulerAnglesHint: {x: 0.934, y: 86.70901, z: -2.3600001}
 --- !u!4 &4763948384099100
 Transform:
   m_ObjectHideFlags: 1
@@ -693,122 +690,21 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: cadfeef8180a94509a5fc2f66739d25b, type: 3}
---- !u!114 &114263053442959666
+--- !u!114 &114040361976100530
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1384385987402362}
+  m_GameObject: {fileID: 1894303876792470}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7570a431340540f4e884ee115b563879, type: 3}
+  m_Script: {fileID: 11500000, guid: b17be3dc654079740971066fcf11b70c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ignition: 1
-  power: 1
-  inputCurve:
+  normalSidewaysStifness: 1
+  layerMask:
     serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  minPitch: 0.5
-  maxPitch: 1.5
-  canBoost: 1
-  boost: 1
-  boostPowerCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0.049999986
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 50
-      value: 0.080020264
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxBoost: 1
-  boostBurnRate: 0.01
-  boostLoopSnd: {fileID: 0}
-  boostStart: {fileID: 8300000, guid: 27c508aa14a6022439b9fa55e3d0b8bd, type: 3}
-  boostEnd: {fileID: 8300000, guid: c77128afd2d136e4481f5235bb62fac7, type: 3}
-  boostParticles:
-  - {fileID: 19857498, guid: c3de640592c8de64c8ff057f91f3a02e, type: 2}
-  - {fileID: 19852810, guid: c3de640592c8de64c8ff057f91f3a02e, type: 2}
-  strength: 1
-  damagePitchWiggle: 0
-  smoke: {fileID: 0}
-  torqueCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0.869695
-      inSlope: 0.024321595
-      outSlope: 0.024321595
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 9.5947075
-      value: 1.0050008
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 15.021188
-      value: 0.004496321
-      inSlope: -0.3915863
-      outSlope: -0.3915863
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  inertia: 0.8
-  canReverse: 0
-  outputDrives:
-  - {fileID: 114858979047261416}
-  driveDividePower: 1
-  transmission: {fileID: 114806485837352892}
-  pitchIncreaseBetweenShift: 0
+    m_Bits: 311
 --- !u!114 &114289862628138386
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -833,60 +729,13 @@ MonoBehaviour:
   motorForce: 150
   plusSteerAngle: 7
   boost: 30
-  maxVelocity: 4
+  maxVelocity: 15
   friction: -100
   clippingTime: 3
   BoostTime: 3
   stop: 50
   player: 1
   rb: {fileID: 54002390517261394}
---- !u!114 &114651473042259140
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1106892445673702}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d07c3ba93f8c45243a96fbd399ee977f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  steerRate: 6
-  steerCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: -0.04448369
-      outSlope: -0.04448369
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 45.024612
-      value: 0.29976583
-      inSlope: -0.0024225756
-      outSlope: -0.0024225756
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitSteer: 1
-  steerCurveStretch: 1
-  applyInReverse: 1
-  steeredWheels:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  rotate: 0
-  maxDegreesRotation: 0
-  rotationOffset: 0
 --- !u!114 &114785716169586932
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -901,68 +750,6 @@ MonoBehaviour:
   timeLeft: 3
   force: 1.5
   player: 49
---- !u!114 &114806485837352892
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1384385987402362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84110432b615ee242b6ceb5f7ac97e07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  strength: 1
-  automatic: 1
-  skidSteerDrive: 0
-  outputDrives:
-  - {fileID: 0}
-  - {fileID: 0}
-  driveDividePower: 3
-  gears:
-  - ratio: -3.5
-    minRPM: -2360.4724
-    maxRPM: 0
-  - ratio: 0
-    minRPM: 0
-    maxRPM: 0
-  - ratio: 3
-    minRPM: 0
-    maxRPM: 2753.8845
-  - ratio: 2.5
-    minRPM: 2478.496
-    maxRPM: 3304.6614
-  - ratio: 1.7
-    minRPM: 2527.094
-    maxRPM: 4859.796
-  - ratio: 1.3
-    minRPM: 4112.135
-    maxRPM: 6355.118
-  - ratio: 1.1
-    minRPM: 5777.38
-    maxRPM: 7510.5938
-  - ratio: 0.9
-    minRPM: 6676.0835
-    maxRPM: 9179.615
-  - ratio: 0.8
-    minRPM: 8605.89
-    maxRPM: 10327.066
-  startGear: 2
-  skipNeutral: 1
-  autoCalculateRpmRanges: 0
-  shiftDelay: 0.5
-  shiftThreshold: 0.2
---- !u!114 &114858979047261416
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1384385987402362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb3a871e618e5234583959237a27a203, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!146 &146305884867036448
 WheelCollider:
   m_ObjectHideFlags: 1
