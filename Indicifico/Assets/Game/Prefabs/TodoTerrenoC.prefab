@@ -242,6 +242,7 @@ GameObject:
   - component: {fileID: 114115483779632726}
   - component: {fileID: 114310201262821806}
   - component: {fileID: 114702413454644428}
+  - component: {fileID: 114679806085566168}
   m_Layer: 30
   m_Name: TodoTerrenoC
   m_TagString: Untagged
@@ -1909,6 +1910,22 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 311
+--- !u!114 &114679806085566168
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1526867271436396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456da7b6a60a645832db6b1849e0b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPoints: {fileID: 0}
+  rigidbody: {fileID: 0}
+  resetTag: Reset
+  minVelocity: 0.2
+  maxTime: 5
 --- !u!114 &114702413454644428
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1920,12 +1937,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16b509f0955a98b439d090bc0744cd61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  points:
-  - {fileID: 65958303537483904, guid: ec1b8fc3d99c5724d84e467c5234ba60, type: 2}
-  - {fileID: 65857980489225990, guid: ec1b8fc3d99c5724d84e467c5234ba60, type: 2}
-  - {fileID: 65556225150773520, guid: ec1b8fc3d99c5724d84e467c5234ba60, type: 2}
-  - {fileID: 65861149670315842, guid: ec1b8fc3d99c5724d84e467c5234ba60, type: 2}
-  - {fileID: 65068349609039374, guid: ec1b8fc3d99c5724d84e467c5234ba60, type: 2}
+  currentPoint: {fileID: 0}
+  nextPoint: {fileID: 0}
 --- !u!146 &146083359263293610
 WheelCollider:
   m_ObjectHideFlags: 1

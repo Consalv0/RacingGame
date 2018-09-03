@@ -5,9 +5,10 @@ using UnityEngine;
 public class CarSelector : MonoBehaviour {
 	public Camera playerCamera;
 	public CarStageBase[] carStageBases;
-	public Transform[] playerSpawns;
 	public int player;
 	public float minSelectionTime = 1;
+
+	public Track selectedTrack;
 
 	private int selectedBase;
 	private float rotationAngle;
@@ -39,10 +40,12 @@ public class CarSelector : MonoBehaviour {
 		}
 
 		if (isActive && Input.GetButtonDown("jump" + player)) {
+			Transform spawn = selectedTrack.playerSpawns[player - 1];
 			Transform target = playerCamera.GetComponent<CameraFollower>().target =
-				GameObject.Instantiate(CarSelected(), playerSpawns[player - 1].position, playerSpawns[player - 1].rotation).transform;
+				GameObject.Instantiate(CarSelected(), spawn.position, spawn.rotation).transform;
 			target.GetComponent<SimpleCarController>().player = player;
 			target.GetComponent<Test_Jump>().player = player;
+			target.GetComponent<CheckPoints>().track = selectedTrack;
 			isActive = false;
 		}
 

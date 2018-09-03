@@ -744,6 +744,7 @@ GameObject:
   - component: {fileID: 114001576662869986}
   - component: {fileID: 114998069468873390}
   - component: {fileID: 114472560813488750}
+  - component: {fileID: 114360939444203190}
   m_Layer: 30
   m_Name: ManejoC
   m_TagString: Untagged
@@ -5647,6 +5648,19 @@ MonoBehaviour:
   stop: 50
   player: 0
   rb: {fileID: 54505776951785452}
+--- !u!114 &114360939444203190
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1570581105278954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456da7b6a60a645832db6b1849e0b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPoints: {fileID: 0}
+  resetTag: Reset
 --- !u!114 &114472560813488750
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5658,12 +5672,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16b509f0955a98b439d090bc0744cd61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  points:
-  - {fileID: 65958303537483904, guid: ec1b8fc3d99c5724d84e467c5234ba60, type: 2}
-  - {fileID: 65857980489225990, guid: ec1b8fc3d99c5724d84e467c5234ba60, type: 2}
-  - {fileID: 65556225150773520, guid: ec1b8fc3d99c5724d84e467c5234ba60, type: 2}
-  - {fileID: 65861149670315842, guid: ec1b8fc3d99c5724d84e467c5234ba60, type: 2}
-  - {fileID: 65068349609039374, guid: ec1b8fc3d99c5724d84e467c5234ba60, type: 2}
+  currentPoint: {fileID: 0}
+  nextPoint: {fileID: 0}
+  pastPoint: 0
 --- !u!114 &114998069468873390
 MonoBehaviour:
   m_ObjectHideFlags: 1

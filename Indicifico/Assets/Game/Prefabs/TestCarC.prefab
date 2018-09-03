@@ -205,6 +205,7 @@ GameObject:
   - component: {fileID: 114289862628138386}
   - component: {fileID: 114040361976100530}
   - component: {fileID: 114999735556111502}
+  - component: {fileID: 114028437371149574}
   m_Layer: 30
   m_Name: TestCarC
   m_TagString: Untagged
@@ -691,6 +692,19 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: cadfeef8180a94509a5fc2f66739d25b, type: 3}
+--- !u!114 &114028437371149574
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1894303876792470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456da7b6a60a645832db6b1849e0b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPoints: {fileID: 0}
+  resetTag: Reset
 --- !u!114 &114040361976100530
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -762,12 +776,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16b509f0955a98b439d090bc0744cd61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  points:
-  - {fileID: 65958303537483904, guid: ec1b8fc3d99c5724d84e467c5234ba60, type: 2}
-  - {fileID: 65857980489225990, guid: ec1b8fc3d99c5724d84e467c5234ba60, type: 2}
-  - {fileID: 65556225150773520, guid: ec1b8fc3d99c5724d84e467c5234ba60, type: 2}
-  - {fileID: 65861149670315842, guid: ec1b8fc3d99c5724d84e467c5234ba60, type: 2}
-  - {fileID: 65068349609039374, guid: ec1b8fc3d99c5724d84e467c5234ba60, type: 2}
+  currentPoint: {fileID: 0}
+  nextPoint: {fileID: 0}
+  pastPoint: 0
 --- !u!146 &146305884867036448
 WheelCollider:
   m_ObjectHideFlags: 1
