@@ -5,7 +5,7 @@ using UnityEngine;
 public class CarStageBase : MonoBehaviour {
 	public GameObject car;
 	public float radius;
-	public Vector3 center;
+	public Transform center;
 	public float targetAngle;
 	public AnimationCurve traslationCurve = AnimationCurve.Linear(0, 0, 1, 1);
 	[Range(0, 1)]
@@ -34,6 +34,6 @@ public class CarStageBase : MonoBehaviour {
 		}
 
 		float angle = Mathf.LerpAngle(initialAngle, targetAngle, traslationCurve.Evaluate(progress));
-		transform.position = center + Quaternion.AngleAxis(angle, Vector3.up) * (Vector3.forward * radius);
+		transform.position = center.position + Quaternion.AngleAxis(angle, Vector3.up) * (Vector3.forward * radius);
 	}
 }

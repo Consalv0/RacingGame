@@ -8,7 +8,7 @@ public class Test_Jump : MonoBehaviour {
   public float timeLeft;
   public float force;
   private float timep;
-  public char player;
+  public int player;
   // Use this for initialization
   void Start () {
     timep = timeLeft;

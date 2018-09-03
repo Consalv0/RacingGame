@@ -3185,7 +3185,7 @@ MonoBehaviour:
   back_leftT: {fileID: 4376352824489050}
   back_rightT: {fileID: 4967946404641102}
   maxSteerAngle: 15
-  motorForce: 1500
+  motorForce: 4000
   plusSteerAngle: 7
   boost: 30
   maxVelocity: 15
@@ -3193,7 +3193,7 @@ MonoBehaviour:
   clippingTime: 3
   BoostTime: 3
   stop: 50
-  player: 1
+  player: 0
   rb: {fileID: 54549166044609080}
 --- !u!114 &114567926146353294
 MonoBehaviour:

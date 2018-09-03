@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CarSelector : MonoBehaviour {
+	public Camera playerCamera;
 	public CarStageBase[] carStageBases;
 	public Transform[] playerSpawns;
 	public int player;
@@ -28,7 +29,7 @@ public class CarSelector : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update() {
-		float horizontalAxis = Input.GetAxisRaw("Horizontal");
+		float horizontalAxis = Input.GetAxisRaw("Turn" + player);
 		if (isActive && (Time.time - lastSelectionTime) > minSelectionTime && !horizontalAxis.Equals(0)) {
 			if (horizontalAxis < -0.8F) {
 				rotateAndSelect(true);
@@ -37,15 +38,17 @@ public class CarSelector : MonoBehaviour {
 			}
 		}
 
-		if (isActive && Input.GetButtonDown("Fire1")) {
-			Camera.main.GetComponent<CameraFollower>().target =
-				GameObject.Instantiate(CarSelected(), playerSpawns[player].position, playerSpawns[player].rotation).transform;
+		if (isActive && Input.GetButtonDown("jump" + player)) {
+			Transform target = playerCamera.GetComponent<CameraFollower>().target =
+				GameObject.Instantiate(CarSelected(), playerSpawns[player - 1].position, playerSpawns[player - 1].rotation).transform;
+			target.GetComponent<SimpleCarController>().player = player;
+			target.GetComponent<Test_Jump>().player = player;
 			isActive = false;
 		}
 
 		if (!isActive && Input.GetButtonDown("Start")) {
-			Destroy(Camera.main.GetComponent<CameraFollower>().target.gameObject);
-			Camera.main.GetComponent<CameraFollower>().target = transform;
+			Destroy(playerCamera.GetComponent<CameraFollower>().target.gameObject);
+			playerCamera.GetComponent<CameraFollower>().target = transform;
 			isActive = true;
 		}
 	}

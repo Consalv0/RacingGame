@@ -1883,15 +1883,15 @@ MonoBehaviour:
   back_leftT: {fileID: 4751614208986406}
   back_rightT: {fileID: 4087711926638712}
   maxSteerAngle: 15
-  motorForce: 1500
+  motorForce: 4000
   plusSteerAngle: 7
   boost: 30
-  maxVelocity: 15
+  maxVelocity: 30
   friction: -100
   clippingTime: 3
   BoostTime: 3
   stop: 50
-  player: 1
+  player: 0
   rb: {fileID: 54455477391352984}
 --- !u!114 &114310201262821806
 MonoBehaviour:

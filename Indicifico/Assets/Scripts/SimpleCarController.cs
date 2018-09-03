@@ -47,7 +47,7 @@ public class SimpleCarController : MonoBehaviour {
 	private bool DoneCliping = false;
 	private bool DoneBoost = false;
 
-	public string player;
+	public int player;
 	public Rigidbody rb;
 	private bool UniqueBoost;
 
