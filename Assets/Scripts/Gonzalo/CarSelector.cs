@@ -5,6 +5,7 @@ using UnityEngine;
 public class CarSelector : MonoBehaviour {
 	public CarStageBase[] carStageBases;
 	public Transform[] playerSpawns;
+	public Transform cameraPosition;
 	public int player;
 	public float minSelectionTime = 1;
 
@@ -13,6 +14,9 @@ public class CarSelector : MonoBehaviour {
 	private float lastSelectionTime;
 
 	public bool isActive = true;
+	public bool isStage = false;
+	public bool OutInStage = true;
+	public bool done = false;
 
 	// Use this for initialization
 	void Start() {
@@ -29,7 +33,34 @@ public class CarSelector : MonoBehaviour {
 	// Update is called once per frame
 	void Update() {
 		float horizontalAxis = Input.GetAxisRaw("Horizontal");
-		if (isActive && (Time.time - lastSelectionTime) > minSelectionTime && !horizontalAxis.Equals(0)) {
+
+        if (isStage)
+        {
+            if (OutInStage)
+            {
+                UnityEngine.Camera.main.GetComponent<Transform>().LookAt(playerSpawns[player]);
+            }
+            else
+            {
+                UnityEngine.Camera.main.GetComponent<Transform>().LookAt(playerSpawns[player + 2]);
+            }
+        }
+
+        if (isStage && isActive && (Time.time - lastSelectionTime) > minSelectionTime && !horizontalAxis.Equals(0))
+        {
+            
+            if (horizontalAxis > 0.8F)
+            {
+                OutInStage = true;
+                UnityEngine.Camera.main.GetComponent<Transform>().LookAt(playerSpawns[player].position);
+            }
+            else if (horizontalAxis < -0.8F)
+            {
+                OutInStage = false;
+                UnityEngine.Camera.main.GetComponent<Transform>().LookAt(playerSpawns[player+2].position); 
+            }
+        }
+        if (!isStage && isActive && (Time.time - lastSelectionTime) > minSelectionTime && !horizontalAxis.Equals(0)) {
 			if (horizontalAxis < -0.8F) {
 				rotateAndSelect(true);
 			} else if (horizontalAxis > 0.8F) {
@@ -37,16 +68,44 @@ public class CarSelector : MonoBehaviour {
 			}
 		}
 
-		if (isActive && Input.GetButtonDown("Fire1")) {
-			UnityEngine.Camera.main.GetComponent<CameraFollower>().target =
-				GameObject.Instantiate(CarSelected(), playerSpawns[player].position, playerSpawns[player].rotation).transform;
-			isActive = false;
+		if (isActive && Input.GetButtonDown("Fire1")) {          
+            if (!isStage && isActive)
+            {
+                isStage = true;
+                UnityEngine.Camera.main.GetComponent<CameraFollower>().target = cameraPosition;
+                //UnityEngine.Camera.main.GetComponent<Transform>().LookAt(playerSpawns[player]);
+            }
+            else if (isStage && isActive)
+            {
+                isStage = false;
+                isActive = false;
+                done = true;
+                Debug.Log("Deberia de empezar");
+            }
 		}
-
-		if (!isActive && Input.GetButtonDown("Start")) {
+        if (done)
+        {
+            if (OutInStage)
+            {
+                Debug.Log("Wat");
+                UnityEngine.Camera.main.GetComponent<CameraFollower>().target =
+                    GameObject.Instantiate(CarSelected(), playerSpawns[player].position, playerSpawns[player].rotation).transform;
+                done = false;
+            }
+            if (!OutInStage)
+            {
+                Debug.Log("Waaaaaat");
+                UnityEngine.Camera.main.GetComponent<CameraFollower>().target =
+                    GameObject.Instantiate(CarSelected(), playerSpawns[player + 2].position, playerSpawns[player + 2].rotation).transform;
+                done = false;
+            }
+        }
+        if (!isActive && Input.GetButtonDown("Start")) {
 			Destroy(UnityEngine.Camera.main.GetComponent<CameraFollower>().target.gameObject);
 			UnityEngine.Camera.main.GetComponent<CameraFollower>().target = transform;
 			isActive = true;
+            isStage = false;
+            done = false;
 		}
 	}
 
