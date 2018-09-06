@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: cbfe36cfddfde964d9dfce63a355d5dd
+    path: Assets/Scenes/Menu-Inicio.unity
+    guid: 763ba69b7d7f748459716f2124d5d016
+  - enabled: 0
+    path: Assets/Scenes/Cart&Trackselection.unity
+    guid: 04d9cb5b440039747930682afcae1a1c
+  - enabled: 1
+    path: Assets/Scenes/SelectTrack.unity
+    guid: 551934ed126bb1342ac4d0546a19585e
+  - enabled: 1
+    path: Assets/Scenes/CarSelection.unity
+    guid: 1195556d068d5aa4b9b4ce77e7710f63
   m_configObjects: {}

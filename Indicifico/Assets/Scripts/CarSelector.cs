@@ -5,19 +5,28 @@ using UnityEngine;
 public class CarSelector : MonoBehaviour {
 	public Camera playerCamera;
 	public CarStageBase[] carStageBases;
-	public int player;
+
+    public int player;
 	public float minSelectionTime = 1;
 
+    public Track[] AvailableTracks;
 	public Track selectedTrack;
+    public static int whattrack;
 
 	private int selectedBase;
 	private float rotationAngle;
 	private float lastSelectionTime;
 
-	private bool isActive = true;
+    public bool isActive = true;
+    public bool isStage = false;
+    public bool OutInStage = true;
+    public bool done = false;
+
 
 	// Use this for initialization
 	void Start() {
+        whattrack = PlayerPrefs.GetInt("track");
+        selectedTrack = AvailableTracks[whattrack];
 		rotationAngle = 360 / carStageBases.Length;
 		float angle = 0;
 		foreach (CarStageBase stage in carStageBases) {
@@ -31,6 +40,8 @@ public class CarSelector : MonoBehaviour {
 	// Update is called once per frame
 	void Update() {
 		float horizontalAxis = Input.GetAxisRaw("Turn" + player);
+		float vertical = Input.GetAxisRaw("Aceleration" + player);
+
 		if (isActive && (Time.time - lastSelectionTime) > minSelectionTime && !horizontalAxis.Equals(0)) {
 			if (horizontalAxis < -0.8F) {
 				rotateAndSelect(true);

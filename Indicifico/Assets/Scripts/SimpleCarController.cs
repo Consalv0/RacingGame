@@ -9,7 +9,10 @@ public class SimpleCarController : MonoBehaviour {
 	private float steeringAngle;
 	private float breakInput;
 
-
+    public AudioSource audioSource;
+    public AudioClip start;
+    public AudioClip acelerating;
+    public AudioClip breaking;
 
 	public WheelCollider front_leftW, front_rightW;
 	public WheelCollider back_leftW, back_rightW;
@@ -52,6 +55,11 @@ public class SimpleCarController : MonoBehaviour {
 	private bool UniqueBoost;
 
 	public void Start() {
+        if (audioSource.clip != start)
+        {
+            audioSource.clip = start;
+            audioSource.Play();
+        }
 		front_leftT.transform.Rotate(new Vector3(0, -90, 0));
 		front_rightT.transform.Rotate(new Vector3(0, 90, 0));
 		back_leftT.transform.Rotate(new Vector3(0, -90, 0));
@@ -117,7 +125,8 @@ public class SimpleCarController : MonoBehaviour {
 	private void Acelerate() {
 
 		if (verticalInput == 1) {
-
+            audioSource.clip = acelerating;
+            audioSource.Play();
 			front_leftW.motorTorque = verticalInput * motorForce;
 			front_rightW.motorTorque = verticalInput * motorForce;
 		} else if (breakInput == 1) {
@@ -132,8 +141,8 @@ public class SimpleCarController : MonoBehaviour {
 
 	void frictionUpdate() {
 		if (rb.velocity.magnitude > 0 && breakInput == 0 && verticalInput == 0) {
-
-
+            audioSource.clip = breaking;
+            audioSource.Play();
 			if (front_leftW.motorTorque > 0) {
 				front_leftW.motorTorque = -stop;
 				front_rightW.motorTorque = -stop;
