@@ -5,6 +5,7 @@ using UnityEngine;
 public class CarSelector : MonoBehaviour {
 	public Camera playerCamera;
 	public CarStageBase[] carStageBases;
+    public MoveManager manager;
 
     public int player;
 	public float minSelectionTime = 1;
@@ -54,9 +55,12 @@ public class CarSelector : MonoBehaviour {
 			Transform spawn = selectedTrack.playerSpawns[player - 1];
 			Transform target = playerCamera.GetComponent<CameraFollower>().target =
 				GameObject.Instantiate(CarSelected(), spawn.position, spawn.rotation).transform;
-			target.GetComponent<SimpleCarController>().player = player;
+            var car = target.GetComponent<SimpleCarController>();
+            car.player = player;
 			target.GetComponent<Test_Jump>().player = player;
 			target.GetComponent<CheckPoints>().track = selectedTrack;
+            if (player == 1) manager.car1 = car;
+            else manager.car2 = car;
 			isActive = false;
 		}
 

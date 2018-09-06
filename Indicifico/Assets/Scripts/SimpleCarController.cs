@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SimpleCarController : MonoBehaviour {
-
+    public bool carMove = false;
 	private float horizontalInput;
 	private float verticalInput;
 	private float steeringAngle;
@@ -53,6 +53,16 @@ public class SimpleCarController : MonoBehaviour {
 	public int player;
 	public Rigidbody rb;
 	private bool UniqueBoost;
+
+    public bool CanMove
+    {
+        get { return carMove; }
+        set
+        {
+            carMove = value;
+            rb.isKinematic = !carMove;
+        }
+    }
 
 	public void Start() {
         if (audioSource.clip != start)
@@ -200,32 +210,39 @@ public class SimpleCarController : MonoBehaviour {
 
 	}
 	private void Update() {
+        //if bool ac, des
+        if (carMove)
+        {
 
-		if (StartCTime) {
-			clippingTime -= Time.deltaTime;
-		}
-		if (StartBTime)
-			BoostTime -= Time.deltaTime;
+            if (StartCTime)
+            {
+                clippingTime -= Time.deltaTime;
+            }
+            if (StartBTime)
+                BoostTime -= Time.deltaTime;
 
-		ClippingTimer();
-		BoostTimer();
-		AllDone();
-
-
+            ClippingTimer();
+            BoostTimer();
+            AllDone();
+        }
 	}
 
-	private void FixedUpdate() {
-		GetInput();
+    private void FixedUpdate()
+    {
+        if (carMove)
+        {
+            GetInput();
 
-		Clipping();
-		Boost();
-		Steer();
-		CheckVelocity();
-		Acelerate();
+            Clipping();
+            Boost();
+            Steer();
+            CheckVelocity();
+            Acelerate();
 
 
 
-		UpdateWheelPoses();
-	}
+            UpdateWheelPoses();
+        }
+    }
 
 }
